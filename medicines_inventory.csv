@@ -1,0 +1,615 @@
+name,quantity_in_packages,type,expiry_date,dosage,usage,added_on
+Digoxin,1,tablet,02/10/2026,0.25mg,2 tablets daily,06/12/2024
+Digoxin,3,tablet,07/07/2024,1g,1 tablet after meals,19/06/2024
+Digoxin,6,tablet,18/04/2026,500mg,2 tablets daily,27/10/2023
+Digoxin,2,tablet,27/10/2027,0.25mg,1 injection every 8 hours,19/10/2023
+Digoxin,10,tablet,19/03/2026,100mg,2 tablets daily,26/06/2024
+Digoxin,6,tablet,02/07/2026,10mg,1 drop in each eye twice daily,13/02/2024
+Digoxin,1,tablet,14/04/2025,5mg,1 injection every 8 hours,25/09/2023
+Losartan,10,tablet,20/12/2025,250mg,Apply externally twice a day,08/04/2025
+Losartan,6,tablet,14/01/2023,0.25mg,1 injection every 8 hours,06/01/2025
+Losartan,3,tablet,26/04/2025,0.25mg,10ml before bedtime,20/08/2023
+Losartan,4,tablet,24/10/2027,10mg,2 tablets daily,23/10/2024
+Losartan,3,tablet,21/08/2027,10mg,10ml before bedtime,31/05/2025
+Losartan,6,tablet,18/01/2026,10mg,1 tablet after meals,14/05/2025
+Losartan,10,tablet,12/01/2025,1g,1 inhalation every 4 hours,01/11/2023
+Losartan,8,tablet,23/04/2026,1g,Apply externally twice a day,11/03/2024
+Losartan,3,tablet,10/09/2027,20mg,1 inhalation every 4 hours,21/10/2023
+Losartan,6,tablet,24/08/2026,5ml,Apply externally twice a day,28/10/2024
+Losartan,10,tablet,08/12/2027,0.25mg,1 tablet every 6 hours,10/03/2025
+Losartan,7,tablet,04/06/2026,20mg,1 drop in each eye twice daily,20/05/2025
+Losartan,7,tablet,27/08/2026,0.25mg,1 capsule daily after breakfast,19/09/2023
+Losartan,10,tablet,09/08/2026,20mg,Apply externally twice a day,02/05/2024
+Losartan,9,tablet,21/07/2024,250mg,1 inhalation every 4 hours,19/04/2025
+Lisinopril,3,tablet,07/03/2025,5mg,1 tablet every 6 hours,17/01/2025
+Lisinopril,2,tablet,25/11/2027,10mg,1 drop in each eye twice daily,08/02/2024
+Lisinopril,5,tablet,01/02/2027,100mg,1 injection every 8 hours,08/05/2024
+Lisinopril,9,tablet,04/12/2027,5mg,Apply externally twice a day,06/03/2024
+Lisinopril,6,tablet,22/08/2027,100mg,10ml before bedtime,07/08/2024
+Lisinopril,2,tablet,25/03/2027,5mg,1 inhalation every 4 hours,14/12/2024
+Lisinopril,1,tablet,18/02/2026,500mg,1 tablet after meals,06/02/2024
+Lisinopril,5,tablet,11/06/2027,250mg,1 capsule daily after breakfast,07/10/2023
+Lisinopril,5,tablet,10/04/2027,100mg,1 drop in each eye twice daily,16/11/2024
+Vitamin C,2,tablet,04/02/2025,250mg,Apply externally twice a day,20/04/2024
+Vitamin C,6,tablet,15/12/2026,100mg,2 tablets daily,05/03/2025
+Vitamin C,2,tablet,13/07/2026,0.25mg,1 injection every 8 hours,22/04/2024
+Vitamin C,1,tablet,24/05/2027,10mg,10ml before bedtime,21/04/2025
+Vitamin C,4,tablet,09/05/2026,250mg,1 tablet every 6 hours,22/10/2024
+Vitamin C,6,tablet,19/02/2027,250mg,1 drop in each eye twice daily,08/05/2025
+Vitamin C,3,tablet,27/10/2023,10ml,1 inhalation every 4 hours,19/11/2023
+Vitamin C,6,tablet,25/12/2025,5ml,Apply externally twice a day,14/09/2024
+Vitamin C,3,tablet,13/07/2026,1000IU,1 drop in each eye twice daily,08/01/2024
+Vitamin C,10,tablet,05/12/2027,250mg,1 drop in each eye twice daily,13/10/2023
+Vitamin C,5,tablet,28/11/2027,100mg,10ml before bedtime,24/02/2025
+Vitamin C,1,tablet,02/02/2025,5mg,Apply externally twice a day,08/12/2024
+Vitamin C,7,tablet,25/12/2027,10mg,1 tablet every 6 hours,25/11/2024
+Vitamin C,8,tablet,12/08/2027,0.25mg,Apply externally twice a day,01/05/2024
+Vitamin C,10,tablet,15/10/2025,100mg,1 injection every 8 hours,12/06/2025
+Vitamin C,3,tablet,08/09/2026,10ml,1 inhalation every 4 hours,12/08/2023
+Diazepam,4,tablet,22/11/2026,5mg,1 tablet after meals,19/06/2024
+Diazepam,6,tablet,08/01/2026,0.25mg,1 inhalation every 4 hours,09/02/2024
+Diazepam,8,tablet,14/10/2027,500mg,2 tablets daily,27/02/2024
+Diazepam,1,tablet,17/09/2024,500mg,1 tablet after meals,19/04/2024
+Diazepam,8,tablet,01/11/2027,250mg,1 capsule daily after breakfast,05/08/2023
+Diazepam,4,tablet,13/04/2026,10ml,1 inhalation every 4 hours,10/01/2025
+Diazepam,9,tablet,17/08/2023,100mg,1 drop in each eye twice daily,11/04/2024
+Diazepam,10,tablet,11/03/2026,10ml,1 tablet after meals,25/04/2024
+Diazepam,3,tablet,18/08/2025,100mg,Apply externally twice a day,19/01/2025
+Diazepam,1,tablet,15/09/2025,0.25mg,10ml before bedtime,16/05/2024
+Diazepam,1,tablet,14/04/2026,5ml,1 capsule daily after breakfast,02/03/2024
+Diazepam,10,tablet,27/12/2025,0.25mg,1 tablet every 6 hours,30/08/2023
+Diazepam,6,tablet,10/03/2027,10mg,Apply externally twice a day,21/06/2024
+Diazepam,4,tablet,21/05/2024,5ml,1 inhalation every 4 hours,23/03/2025
+Ranitidine,1,tablet,02/04/2026,10ml,1 injection every 8 hours,02/04/2025
+Ranitidine,10,tablet,22/10/2027,1g,1 tablet every 6 hours,14/12/2023
+Zinc Supplement,9,tablet,19/06/2025,100mg,1 tablet every 6 hours,13/04/2024
+Zinc Supplement,5,tablet,27/05/2027,1g,Apply externally twice a day,15/07/2025
+Zinc Supplement,8,tablet,12/08/2027,5ml,Apply externally twice a day,06/03/2024
+Zinc Supplement,5,tablet,08/12/2025,10mg,1 injection every 8 hours,21/02/2025
+Zinc Supplement,8,tablet,17/11/2026,10ml,Apply externally twice a day,31/05/2025
+Zinc Supplement,8,tablet,14/06/2026,1000IU,10ml before bedtime,09/10/2023
+Furosemide,10,tablet,10/12/2023,1g,1 tablet after meals,17/09/2024
+Furosemide,9,tablet,24/07/2026,10ml,1 tablet every 6 hours,11/01/2024
+Furosemide,2,tablet,20/05/2027,1000IU,1 tablet after meals,11/12/2023
+Furosemide,4,tablet,10/05/2025,10ml,2 tablets daily,22/02/2025
+Furosemide,8,tablet,27/06/2026,0.25mg,1 tablet after meals,16/08/2024
+Furosemide,9,tablet,10/10/2025,100mg,1 inhalation every 4 hours,18/07/2024
+Furosemide,9,tablet,09/03/2027,250mg,1 inhalation every 4 hours,20/07/2024
+Furosemide,9,tablet,14/11/2025,1000IU,1 drop in each eye twice daily,02/05/2025
+Furosemide,5,tablet,16/07/2024,10ml,1 capsule daily after breakfast,02/03/2024
+Furosemide,7,tablet,21/02/2025,5mg,1 capsule daily after breakfast,22/02/2025
+Furosemide,1,tablet,18/10/2026,10mg,1 inhalation every 4 hours,21/01/2025
+Furosemide,1,tablet,18/09/2025,10ml,1 tablet after meals,04/02/2025
+Enalapril,10,tablet,14/07/2027,1g,1 tablet after meals,25/06/2024
+Enalapril,9,tablet,18/02/2026,500mg,10ml before bedtime,18/04/2024
+Enalapril,2,tablet,16/09/2027,500mg,1 drop in each eye twice daily,04/04/2024
+Enalapril,6,tablet,16/09/2025,20mg,Apply externally twice a day,12/04/2025
+Enalapril,4,tablet,03/09/2026,5ml,1 capsule daily after breakfast,22/12/2023
+Enalapril,10,tablet,07/07/2027,250mg,1 injection every 8 hours,24/01/2024
+Enalapril,8,tablet,17/05/2027,100mg,10ml before bedtime,06/04/2025
+Enalapril,9,tablet,16/02/2026,1000IU,1 capsule daily after breakfast,04/02/2024
+Enalapril,6,tablet,08/01/2027,1g,1 tablet every 6 hours,13/01/2025
+Enalapril,5,tablet,22/03/2027,0.25mg,10ml before bedtime,23/10/2023
+Enalapril,5,tablet,10/02/2026,10ml,10ml before bedtime,25/01/2024
+Enalapril,4,tablet,16/10/2027,20mg,1 tablet after meals,23/01/2025
+Enalapril,8,tablet,27/05/2027,10ml,2 tablets daily,02/09/2023
+Enalapril,3,tablet,27/06/2025,20mg,Apply externally twice a day,08/04/2025
+Enalapril,7,tablet,04/05/2026,10mg,1 injection every 8 hours,03/12/2023
+Enalapril,4,tablet,08/08/2024,10mg,1 injection every 8 hours,21/09/2023
+Enalapril,10,tablet,12/03/2026,1000IU,1 drop in each eye twice daily,28/10/2024
+Enalapril,2,tablet,25/11/2026,10ml,1 inhalation every 4 hours,15/09/2024
+Calcium Carbonate,5,tablet,16/01/2025,5mg,1 tablet every 6 hours,03/05/2024
+Calcium Carbonate,4,tablet,25/04/2026,0.25mg,1 inhalation every 4 hours,18/06/2025
+Calcium Carbonate,10,tablet,05/03/2025,500mg,2 tablets daily,12/11/2023
+Calcium Carbonate,7,tablet,18/06/2026,5mg,1 capsule daily after breakfast,02/07/2024
+Calcium Carbonate,9,tablet,15/04/2027,500mg,1 tablet every 6 hours,29/09/2024
+Calcium Carbonate,7,tablet,08/09/2025,5mg,1 capsule daily after breakfast,27/08/2024
+Calcium Carbonate,7,tablet,09/12/2026,1g,10ml before bedtime,16/02/2025
+Calcium Carbonate,8,tablet,11/07/2026,0.25mg,1 capsule daily after breakfast,13/08/2023
+Calcium Carbonate,4,tablet,09/04/2027,500mg,10ml before bedtime,04/04/2025
+Nitroglycerin,2,tablet,24/06/2026,5ml,1 tablet after meals,25/07/2023
+Nitroglycerin,6,tablet,24/02/2026,1g,1 drop in each eye twice daily,03/05/2024
+Nitroglycerin,3,tablet,12/09/2027,1000IU,1 injection every 8 hours,27/08/2023
+Nitroglycerin,7,tablet,15/10/2026,10mg,10ml before bedtime,20/12/2024
+Nitroglycerin,6,tablet,25/11/2026,10ml,10ml before bedtime,11/03/2024
+Nitroglycerin,5,tablet,07/08/2025,0.25mg,1 tablet every 6 hours,10/06/2025
+Nitroglycerin,10,tablet,17/12/2026,1g,1 injection every 8 hours,17/10/2024
+Nitroglycerin,2,tablet,06/02/2024,0.25mg,Apply externally twice a day,28/09/2023
+Nitroglycerin,8,tablet,02/08/2025,5ml,1 inhalation every 4 hours,09/12/2024
+Nitroglycerin,5,tablet,01/12/2026,20mg,1 capsule daily after breakfast,26/11/2024
+Nitroglycerin,8,tablet,28/06/2027,5mg,1 drop in each eye twice daily,05/09/2024
+Nitroglycerin,2,tablet,02/05/2023,10ml,Apply externally twice a day,01/10/2024
+Nitroglycerin,5,tablet,25/09/2026,10ml,1 tablet every 6 hours,09/04/2024
+Nitroglycerin,2,tablet,14/10/2026,5mg,1 tablet every 6 hours,12/09/2023
+Nitroglycerin,9,tablet,08/07/2027,250mg,1 capsule daily after breakfast,16/08/2024
+Fluconazole,6,tablet,20/05/2024,5mg,1 inhalation every 4 hours,25/01/2025
+Fluconazole,5,tablet,14/08/2024,20mg,2 tablets daily,09/11/2023
+Fluconazole,6,tablet,26/03/2027,10mg,Apply externally twice a day,15/11/2024
+Fluconazole,7,tablet,21/05/2027,0.25mg,1 capsule daily after breakfast,12/01/2025
+Fluconazole,3,tablet,01/04/2026,10mg,1 injection every 8 hours,06/06/2025
+Fluconazole,8,tablet,02/01/2027,5ml,1 tablet every 6 hours,05/04/2025
+Fluconazole,6,tablet,02/07/2025,250mg,Apply externally twice a day,13/09/2024
+Fluconazole,5,tablet,11/05/2026,500mg,10ml before bedtime,23/03/2024
+Fluconazole,10,tablet,24/08/2023,10ml,1 injection every 8 hours,19/04/2024
+Fluconazole,5,tablet,27/04/2026,100mg,1 tablet after meals,15/02/2024
+Fluconazole,7,tablet,28/07/2027,10ml,1 drop in each eye twice daily,27/07/2023
+Fluconazole,10,tablet,19/04/2026,500mg,Apply externally twice a day,30/08/2024
+Fluconazole,4,tablet,05/01/2026,10mg,1 inhalation every 4 hours,23/09/2024
+Fluconazole,2,tablet,13/11/2026,1g,1 tablet after meals,26/09/2023
+Fluconazole,9,tablet,28/04/2026,10mg,10ml before bedtime,18/03/2024
+Fluconazole,10,tablet,13/11/2025,5mg,10ml before bedtime,17/08/2023
+Fluconazole,2,tablet,27/03/2024,20mg,1 inhalation every 4 hours,30/09/2024
+Magnesium Hydroxide,5,syrup,25/11/2026,10ml,1 tablet every 6 hours,18/12/2024
+Magnesium Hydroxide,3,syrup,05/09/2026,5ml,2 tablets daily,10/12/2024
+Magnesium Hydroxide,9,syrup,24/02/2025,500mg,1 injection every 8 hours,30/08/2023
+Magnesium Hydroxide,5,syrup,22/03/2027,0.25mg,1 tablet every 6 hours,09/03/2024
+Magnesium Hydroxide,9,syrup,07/02/2026,0.25mg,Apply externally twice a day,11/10/2024
+Magnesium Hydroxide,2,syrup,09/05/2024,5ml,Apply externally twice a day,12/09/2024
+Magnesium Hydroxide,8,syrup,01/07/2027,1g,1 drop in each eye twice daily,12/11/2023
+Magnesium Hydroxide,6,syrup,03/03/2027,10mg,1 tablet every 6 hours,03/12/2023
+Magnesium Hydroxide,6,syrup,06/08/2027,250mg,Apply externally twice a day,14/07/2024
+Magnesium Hydroxide,9,syrup,18/06/2024,10mg,Apply externally twice a day,06/08/2023
+Magnesium Hydroxide,7,syrup,05/05/2027,1000IU,2 tablets daily,23/08/2024
+Magnesium Hydroxide,7,syrup,21/05/2026,5mg,1 drop in each eye twice daily,05/07/2025
+Magnesium Hydroxide,3,syrup,16/07/2027,250mg,1 tablet every 6 hours,04/05/2024
+Magnesium Hydroxide,8,syrup,03/03/2027,1g,1 injection every 8 hours,31/08/2024
+Magnesium Hydroxide,3,syrup,04/02/2026,100mg,2 tablets daily,05/01/2024
+Magnesium Hydroxide,8,syrup,22/07/2025,5mg,10ml before bedtime,28/03/2024
+Tetracycline,9,capsule,07/10/2026,250mg,2 tablets daily,18/06/2025
+Tetracycline,7,capsule,10/08/2026,10mg,1 injection every 8 hours,05/05/2024
+Tetracycline,2,capsule,12/04/2026,10ml,10ml before bedtime,30/07/2024
+Tetracycline,9,capsule,04/11/2025,5mg,2 tablets daily,19/06/2025
+Tetracycline,2,capsule,25/11/2026,1g,2 tablets daily,23/08/2024
+Tetracycline,5,capsule,19/07/2023,0.25mg,1 injection every 8 hours,13/06/2025
+Tetracycline,5,capsule,03/03/2026,10mg,1 tablet after meals,23/04/2025
+Tetracycline,6,capsule,13/10/2026,250mg,10ml before bedtime,12/02/2024
+Iron Supplement,6,tablet,21/06/2027,250mg,1 inhalation every 4 hours,04/10/2023
+Iron Supplement,5,tablet,07/03/2026,250mg,1 drop in each eye twice daily,24/03/2025
+Iron Supplement,7,tablet,24/11/2027,1000IU,1 tablet after meals,21/07/2023
+Iron Supplement,7,tablet,23/01/2026,10mg,1 tablet every 6 hours,04/06/2025
+Iron Supplement,4,tablet,10/02/2027,100mg,10ml before bedtime,26/12/2024
+Iron Supplement,10,tablet,16/08/2023,100mg,1 injection every 8 hours,18/10/2023
+Iron Supplement,7,tablet,14/06/2027,0.25mg,1 drop in each eye twice daily,12/02/2025
+Iron Supplement,9,tablet,25/07/2026,20mg,1 tablet after meals,07/07/2025
+Iron Supplement,6,tablet,14/07/2025,100mg,1 injection every 8 hours,18/04/2024
+Iron Supplement,9,tablet,09/05/2026,5mg,Apply externally twice a day,26/05/2024
+Iron Supplement,3,tablet,17/03/2025,100mg,1 tablet every 6 hours,09/08/2023
+Iron Supplement,6,tablet,10/05/2027,100mg,1 injection every 8 hours,13/12/2024
+Iron Supplement,5,tablet,15/01/2026,5ml,Apply externally twice a day,16/11/2023
+Iron Supplement,9,tablet,19/10/2026,1g,1 injection every 8 hours,29/05/2025
+Iron Supplement,9,tablet,11/10/2026,5ml,1 tablet every 6 hours,03/02/2025
+Iron Supplement,1,tablet,25/11/2026,10ml,1 injection every 8 hours,15/02/2024
+Hydrocortisone,1,ointment,20/06/2024,500mg,1 injection every 8 hours,01/10/2023
+Hydrocortisone,7,ointment,22/08/2027,0.25mg,2 tablets daily,09/06/2025
+Hydrocortisone,9,ointment,22/05/2026,0.25mg,1 inhalation every 4 hours,08/12/2024
+Hydrocortisone,7,ointment,17/12/2027,1000IU,10ml before bedtime,02/12/2024
+Hydrocortisone,6,ointment,17/08/2026,0.25mg,1 tablet every 6 hours,25/10/2024
+Hydrocortisone,4,ointment,11/02/2027,10mg,10ml before bedtime,26/09/2023
+Hydrocortisone,9,ointment,25/10/2027,10ml,1 injection every 8 hours,06/10/2023
+Hydrocortisone,10,ointment,27/03/2024,5ml,1 drop in each eye twice daily,06/10/2024
+Hydrocortisone,3,ointment,25/05/2026,10ml,1 tablet after meals,20/11/2023
+Hydrocortisone,2,ointment,19/07/2023,5ml,2 tablets daily,20/04/2025
+Hydrocortisone,2,ointment,28/07/2025,100mg,Apply externally twice a day,22/04/2024
+Hydrocortisone,5,ointment,21/12/2027,20mg,10ml before bedtime,08/03/2025
+Hydrocortisone,2,ointment,22/03/2025,5ml,1 capsule daily after breakfast,20/03/2024
+Hydrocortisone,9,ointment,09/04/2027,20mg,1 drop in each eye twice daily,15/07/2025
+Hydrocortisone,6,ointment,27/03/2027,5mg,1 tablet every 6 hours,14/05/2025
+Hydrocortisone,2,ointment,07/07/2027,10mg,Apply externally twice a day,03/10/2023
+Insulin,6,injection,19/06/2025,1g,1 inhalation every 4 hours,17/03/2024
+Insulin,1,injection,04/07/2026,1000IU,1 tablet after meals,13/01/2024
+Insulin,2,injection,25/02/2025,0.25mg,1 injection every 8 hours,15/09/2024
+Insulin,8,injection,06/05/2027,500mg,1 inhalation every 4 hours,19/12/2024
+Insulin,8,injection,17/12/2023,250mg,1 injection every 8 hours,09/08/2023
+Insulin,3,injection,11/06/2027,250mg,10ml before bedtime,13/06/2024
+Insulin,8,injection,24/01/2025,5ml,1 tablet every 6 hours,28/08/2023
+Insulin,1,injection,08/11/2026,1g,1 injection every 8 hours,27/04/2025
+Insulin,8,injection,22/06/2026,0.25mg,1 injection every 8 hours,08/02/2024
+Insulin,4,injection,24/06/2026,10mg,10ml before bedtime,12/10/2023
+Insulin,10,injection,03/11/2027,1000IU,1 tablet after meals,16/03/2024
+Insulin,2,injection,21/06/2027,1000IU,2 tablets daily,18/06/2024
+Insulin,7,injection,25/02/2025,500mg,1 injection every 8 hours,27/11/2023
+Insulin,4,injection,24/07/2027,20mg,1 capsule daily after breakfast,18/04/2024
+Insulin,1,injection,16/04/2026,1000IU,1 inhalation every 4 hours,05/01/2025
+Insulin,10,injection,24/10/2027,1g,Apply externally twice a day,26/02/2024
+Insulin,1,injection,07/04/2023,1000IU,10ml before bedtime,04/05/2025
+Insulin,1,injection,26/04/2026,1000IU,1 capsule daily after breakfast,05/12/2023
+Insulin,1,injection,07/12/2027,5mg,1 injection every 8 hours,26/09/2024
+Gentamicin,8,ointment,21/04/2027,1000IU,10ml before bedtime,23/01/2025
+Gentamicin,9,ointment,26/10/2025,1000IU,1 tablet every 6 hours,25/08/2023
+Gentamicin,8,ointment,23/01/2025,1g,1 tablet after meals,10/03/2025
+Gentamicin,10,ointment,25/06/2027,10mg,10ml before bedtime,16/05/2024
+Gentamicin,9,ointment,05/08/2026,250mg,1 drop in each eye twice daily,13/06/2024
+Gentamicin,4,ointment,24/09/2026,0.25mg,1 capsule daily after breakfast,24/10/2023
+Gentamicin,2,ointment,24/04/2026,10mg,2 tablets daily,28/12/2024
+Gentamicin,5,ointment,04/06/2027,5mg,2 tablets daily,03/01/2025
+Gentamicin,1,ointment,25/04/2025,0.25mg,Apply externally twice a day,06/04/2025
+Gentamicin,4,ointment,23/12/2025,5ml,1 capsule daily after breakfast,19/06/2025
+Gentamicin,3,ointment,07/12/2027,5ml,10ml before bedtime,13/06/2025
+Gentamicin,4,ointment,06/07/2026,250mg,10ml before bedtime,06/10/2024
+Gentamicin,2,ointment,17/02/2023,20mg,1 inhalation every 4 hours,29/08/2023
+Gentamicin,8,ointment,09/06/2027,5mg,1 drop in each eye twice daily,21/10/2024
+Gentamicin,1,ointment,28/07/2027,1g,1 drop in each eye twice daily,03/04/2024
+Gentamicin,4,ointment,27/03/2027,5ml,Apply externally twice a day,19/10/2024
+Paracetamol,6,tablet,09/08/2026,1000IU,1 injection every 8 hours,13/01/2024
+Paracetamol,9,tablet,05/07/2027,250mg,1 injection every 8 hours,12/01/2024
+Paracetamol,4,tablet,07/10/2027,1000IU,1 inhalation every 4 hours,22/03/2025
+Dextromethorphan,1,syrup,24/11/2025,10ml,10ml before bedtime,06/08/2023
+Dextromethorphan,6,syrup,09/01/2023,5mg,1 drop in each eye twice daily,18/06/2025
+Dextromethorphan,4,syrup,12/02/2025,0.25mg,1 drop in each eye twice daily,05/09/2023
+Dextromethorphan,3,syrup,17/01/2027,0.25mg,1 injection every 8 hours,11/08/2024
+Dextromethorphan,7,syrup,27/04/2026,1000IU,Apply externally twice a day,04/07/2025
+Dextromethorphan,9,syrup,19/03/2025,250mg,1 drop in each eye twice daily,22/10/2024
+Hydrochlorothiazide,6,tablet,04/01/2024,1000IU,10ml before bedtime,03/12/2024
+Hydrochlorothiazide,5,tablet,10/09/2026,10ml,1 capsule daily after breakfast,19/06/2025
+Hydrochlorothiazide,9,tablet,06/10/2027,0.25mg,Apply externally twice a day,07/04/2024
+Hydrochlorothiazide,5,tablet,16/03/2027,0.25mg,Apply externally twice a day,07/05/2025
+Hydrochlorothiazide,4,tablet,25/09/2027,1g,10ml before bedtime,11/05/2024
+Hydrochlorothiazide,3,tablet,05/07/2026,10mg,Apply externally twice a day,23/01/2024
+Hydrochlorothiazide,10,tablet,14/12/2027,20mg,1 tablet every 6 hours,07/05/2025
+Cetirizine,5,tablet,23/06/2026,5mg,10ml before bedtime,09/05/2025
+Cetirizine,2,tablet,11/12/2026,0.25mg,2 tablets daily,09/10/2024
+Cetirizine,10,tablet,08/07/2026,500mg,1 tablet after meals,11/02/2025
+Cetirizine,1,tablet,04/04/2026,1g,1 tablet after meals,17/04/2024
+Cetirizine,9,tablet,11/02/2026,10ml,1 tablet after meals,03/10/2023
+Cetirizine,7,tablet,18/11/2025,0.25mg,Apply externally twice a day,10/10/2023
+Cetirizine,9,tablet,23/11/2026,10mg,1 tablet every 6 hours,06/02/2024
+Cetirizine,7,tablet,17/06/2027,0.25mg,1 inhalation every 4 hours,14/01/2024
+Cetirizine,2,tablet,08/10/2026,1g,1 drop in each eye twice daily,04/09/2023
+Cetirizine,10,tablet,21/08/2027,5ml,1 tablet every 6 hours,28/09/2023
+Cetirizine,1,tablet,22/03/2027,1g,1 injection every 8 hours,12/08/2024
+Cetirizine,6,tablet,04/12/2025,10mg,Apply externally twice a day,09/07/2024
+Cetirizine,3,tablet,25/03/2025,20mg,10ml before bedtime,23/06/2024
+Cetirizine,5,tablet,21/01/2023,20mg,1 tablet every 6 hours,06/06/2025
+Cetirizine,6,tablet,14/01/2027,500mg,1 tablet after meals,22/05/2025
+Cetirizine,5,tablet,11/04/2025,5ml,1 drop in each eye twice daily,01/01/2024
+Cetirizine,4,tablet,15/03/2027,10mg,1 inhalation every 4 hours,03/04/2025
+Cetirizine,8,tablet,19/11/2027,0.25mg,1 tablet every 6 hours,03/05/2025
+Cetirizine,1,tablet,20/07/2025,5ml,1 inhalation every 4 hours,15/03/2025
+Metformin,6,tablet,15/04/2026,250mg,10ml before bedtime,11/02/2025
+Metformin,2,tablet,26/09/2026,0.25mg,1 tablet after meals,20/12/2024
+Gabapentin,9,capsule,18/12/2025,20mg,1 capsule daily after breakfast,03/02/2024
+Gabapentin,6,capsule,13/10/2025,5ml,1 capsule daily after breakfast,21/01/2025
+Gabapentin,9,capsule,18/11/2024,250mg,10ml before bedtime,26/07/2023
+Gabapentin,2,capsule,06/11/2026,5ml,1 inhalation every 4 hours,27/01/2024
+Gabapentin,3,capsule,03/09/2027,0.25mg,Apply externally twice a day,12/07/2024
+Gabapentin,3,capsule,28/03/2026,500mg,2 tablets daily,09/04/2025
+Gabapentin,2,capsule,22/01/2026,1g,1 drop in each eye twice daily,27/11/2023
+Gabapentin,7,capsule,22/11/2027,10ml,1 tablet every 6 hours,18/07/2025
+Gabapentin,1,capsule,11/11/2025,500mg,Apply externally twice a day,01/06/2024
+Gabapentin,3,capsule,21/05/2024,500mg,1 drop in each eye twice daily,03/06/2025
+Gabapentin,10,capsule,28/07/2025,5ml,10ml before bedtime,07/01/2025
+Gabapentin,2,capsule,22/08/2027,0.25mg,1 inhalation every 4 hours,23/09/2023
+Gabapentin,4,capsule,06/12/2025,0.25mg,10ml before bedtime,24/08/2024
+Gabapentin,1,capsule,16/10/2024,5ml,10ml before bedtime,07/02/2025
+Gabapentin,9,capsule,08/07/2026,20mg,1 inhalation every 4 hours,11/07/2024
+Gabapentin,6,capsule,25/08/2027,500mg,10ml before bedtime,16/12/2023
+Gabapentin,10,capsule,11/09/2026,0.25mg,1 drop in each eye twice daily,21/11/2024
+Gabapentin,2,capsule,03/07/2023,10mg,1 tablet after meals,08/01/2025
+Azithromycin,2,tablet,20/05/2027,5mg,1 drop in each eye twice daily,07/06/2024
+Azithromycin,4,tablet,19/09/2026,5ml,1 injection every 8 hours,10/08/2024
+Azithromycin,3,tablet,14/01/2025,20mg,10ml before bedtime,18/05/2025
+Azithromycin,4,tablet,06/05/2026,5ml,1 tablet every 6 hours,11/03/2024
+Azithromycin,1,tablet,03/02/2023,100mg,1 tablet every 6 hours,03/10/2023
+Spironolactone,4,tablet,13/09/2027,20mg,1 drop in each eye twice daily,22/08/2024
+Spironolactone,1,tablet,24/06/2026,1000IU,1 drop in each eye twice daily,10/12/2023
+Spironolactone,9,tablet,26/03/2023,10ml,1 capsule daily after breakfast,11/10/2023
+Spironolactone,1,tablet,12/12/2027,500mg,1 inhalation every 4 hours,03/09/2024
+Spironolactone,6,tablet,23/05/2027,250mg,1 tablet after meals,05/06/2024
+Spironolactone,8,tablet,10/04/2027,1g,10ml before bedtime,13/02/2024
+Spironolactone,8,tablet,13/06/2026,1000IU,1 drop in each eye twice daily,16/03/2024
+Spironolactone,4,tablet,26/01/2027,20mg,1 inhalation every 4 hours,21/04/2024
+Spironolactone,1,tablet,02/03/2027,250mg,1 tablet after meals,21/08/2023
+Spironolactone,5,tablet,07/08/2026,20mg,1 tablet after meals,13/04/2024
+Spironolactone,9,tablet,06/11/2026,5ml,1 tablet after meals,07/12/2023
+Spironolactone,7,tablet,09/06/2027,5mg,1 drop in each eye twice daily,08/04/2024
+Spironolactone,5,tablet,19/07/2027,500mg,Apply externally twice a day,28/08/2024
+Spironolactone,5,tablet,20/05/2027,10ml,1 inhalation every 4 hours,22/06/2025
+Spironolactone,4,tablet,08/08/2027,1g,1 injection every 8 hours,02/08/2023
+Ciprofloxacin,2,tablet,09/10/2027,0.25mg,1 capsule daily after breakfast,08/10/2024
+Ciprofloxacin,5,tablet,10/07/2025,10mg,1 drop in each eye twice daily,30/12/2023
+Ciprofloxacin,2,tablet,28/09/2026,250mg,1 tablet after meals,03/08/2024
+Ciprofloxacin,1,tablet,12/08/2025,100mg,2 tablets daily,24/11/2024
+Ciprofloxacin,6,tablet,12/06/2027,100mg,1 injection every 8 hours,15/07/2025
+Ciprofloxacin,8,tablet,08/03/2027,10mg,10ml before bedtime,05/07/2025
+Ciprofloxacin,9,tablet,18/08/2026,0.25mg,Apply externally twice a day,13/12/2024
+Ciprofloxacin,5,tablet,24/10/2027,500mg,Apply externally twice a day,12/12/2023
+Ciprofloxacin,3,tablet,11/02/2027,100mg,10ml before bedtime,11/01/2025
+Ciprofloxacin,9,tablet,03/11/2025,1000IU,1 inhalation every 4 hours,28/02/2024
+Ciprofloxacin,5,tablet,10/10/2026,250mg,2 tablets daily,23/07/2023
+Ciprofloxacin,2,tablet,27/01/2025,1g,1 capsule daily after breakfast,30/08/2023
+Ciprofloxacin,5,tablet,15/01/2026,100mg,10ml before bedtime,19/10/2023
+Ciprofloxacin,8,tablet,11/07/2025,0.25mg,1 inhalation every 4 hours,20/02/2025
+Ciprofloxacin,8,tablet,14/12/2025,10mg,1 tablet every 6 hours,24/02/2024
+Ciprofloxacin,4,tablet,24/03/2026,10ml,1 drop in each eye twice daily,05/08/2023
+Ciprofloxacin,5,tablet,21/12/2027,250mg,2 tablets daily,27/12/2024
+Nifedipine,9,tablet,27/09/2025,20mg,1 capsule daily after breakfast,26/08/2024
+Nifedipine,8,tablet,04/07/2026,0.25mg,1 capsule daily after breakfast,10/01/2024
+Nifedipine,8,tablet,14/08/2027,100mg,1 injection every 8 hours,05/12/2024
+Nifedipine,6,tablet,10/07/2025,1g,1 tablet after meals,10/09/2023
+Nifedipine,6,tablet,08/10/2026,100mg,1 drop in each eye twice daily,25/04/2024
+Nifedipine,2,tablet,14/11/2025,250mg,1 injection every 8 hours,28/07/2024
+Nifedipine,10,tablet,03/12/2026,250mg,1 tablet after meals,20/05/2025
+Nifedipine,7,tablet,06/10/2023,1g,1 injection every 8 hours,14/02/2024
+Nifedipine,8,tablet,28/05/2027,10mg,1 drop in each eye twice daily,17/12/2024
+Nifedipine,8,tablet,20/05/2027,0.25mg,2 tablets daily,17/09/2024
+Nifedipine,7,tablet,08/08/2026,0.25mg,Apply externally twice a day,01/01/2024
+Nifedipine,7,tablet,26/12/2023,500mg,1 tablet after meals,05/06/2025
+Nifedipine,5,tablet,17/04/2027,1000IU,1 inhalation every 4 hours,19/11/2023
+Nifedipine,5,tablet,16/07/2026,250mg,Apply externally twice a day,31/07/2023
+Nifedipine,8,tablet,27/07/2026,100mg,1 tablet after meals,13/01/2024
+Nifedipine,7,tablet,25/04/2026,250mg,10ml before bedtime,27/07/2024
+Nifedipine,6,tablet,12/05/2023,100mg,1 tablet every 6 hours,21/10/2024
+Nifedipine,8,tablet,01/04/2026,5mg,1 tablet every 6 hours,24/10/2024
+Nifedipine,7,tablet,10/07/2027,1g,2 tablets daily,19/04/2025
+Nifedipine,5,tablet,19/07/2026,5mg,10ml before bedtime,07/06/2025
+Amiodarone,9,tablet,23/09/2025,10mg,1 capsule daily after breakfast,18/02/2024
+Amiodarone,7,tablet,28/06/2027,100mg,1 tablet every 6 hours,19/05/2024
+Amiodarone,2,tablet,05/11/2024,10ml,1 drop in each eye twice daily,07/01/2025
+Amiodarone,2,tablet,20/01/2024,100mg,2 tablets daily,23/06/2025
+Amiodarone,9,tablet,28/08/2025,5mg,1 tablet after meals,11/01/2025
+Amiodarone,10,tablet,02/09/2026,5mg,1 drop in each eye twice daily,07/07/2025
+Amiodarone,1,tablet,22/11/2026,10mg,1 capsule daily after breakfast,12/10/2023
+Amiodarone,8,tablet,19/07/2026,5mg,1 tablet every 6 hours,19/06/2024
+Amiodarone,7,tablet,11/05/2027,5ml,1 drop in each eye twice daily,24/08/2023
+Amiodarone,6,tablet,10/03/2027,10mg,1 tablet after meals,30/09/2023
+Amiodarone,8,tablet,11/01/2027,100mg,2 tablets daily,27/06/2024
+Amiodarone,10,tablet,24/07/2027,20mg,10ml before bedtime,02/11/2023
+Amiodarone,6,tablet,13/10/2026,0.25mg,1 inhalation every 4 hours,23/10/2023
+Amiodarone,2,tablet,19/09/2024,500mg,1 tablet after meals,13/06/2025
+Amiodarone,8,tablet,23/01/2025,5mg,Apply externally twice a day,01/07/2024
+Simvastatin,1,tablet,04/03/2025,0.25mg,1 drop in each eye twice daily,08/06/2025
+Simvastatin,4,tablet,02/11/2025,0.25mg,2 tablets daily,30/11/2023
+Simvastatin,10,tablet,18/01/2025,100mg,1 injection every 8 hours,07/08/2024
+Simvastatin,1,tablet,12/08/2024,5ml,Apply externally twice a day,06/01/2025
+Simvastatin,4,tablet,04/09/2026,1000IU,1 drop in each eye twice daily,30/01/2024
+Simvastatin,9,tablet,18/12/2025,5ml,1 drop in each eye twice daily,20/07/2025
+Simvastatin,3,tablet,05/03/2027,0.25mg,1 drop in each eye twice daily,23/03/2025
+Simvastatin,1,tablet,16/10/2027,10ml,1 injection every 8 hours,13/06/2024
+Amoxicillin,8,capsule,20/12/2025,500mg,1 inhalation every 4 hours,31/05/2025
+Amoxicillin,9,capsule,17/09/2027,10ml,1 tablet after meals,06/06/2025
+Amoxicillin,9,capsule,02/01/2027,100mg,1 capsule daily after breakfast,22/09/2023
+Amoxicillin,5,capsule,15/05/2026,500mg,2 tablets daily,11/04/2024
+Amoxicillin,6,capsule,05/12/2027,1000IU,1 tablet after meals,04/08/2023
+Amoxicillin,3,capsule,13/06/2023,20mg,1 injection every 8 hours,08/10/2024
+Amoxicillin,10,capsule,21/02/2023,1g,1 injection every 8 hours,02/01/2025
+Amoxicillin,2,capsule,12/11/2026,20mg,1 inhalation every 4 hours,28/03/2025
+Amoxicillin,2,capsule,07/10/2027,0.25mg,1 inhalation every 4 hours,27/05/2024
+Amoxicillin,2,capsule,12/09/2027,20mg,1 drop in each eye twice daily,01/11/2023
+Amoxicillin,1,capsule,12/04/2026,10ml,1 capsule daily after breakfast,04/07/2024
+Amoxicillin,9,capsule,28/08/2023,5mg,1 inhalation every 4 hours,03/03/2025
+Vitamin D,3,capsule,17/09/2027,5mg,1 capsule daily after breakfast,06/09/2023
+Vitamin D,1,capsule,06/11/2025,10mg,1 injection every 8 hours,02/02/2024
+Vitamin D,3,capsule,16/08/2026,500mg,1 tablet every 6 hours,05/04/2024
+Vitamin D,3,capsule,13/11/2027,10ml,2 tablets daily,25/05/2025
+Vitamin D,7,capsule,11/02/2027,1g,1 tablet every 6 hours,16/11/2024
+Vitamin D,1,capsule,22/01/2027,500mg,2 tablets daily,08/04/2024
+Vitamin D,7,capsule,22/10/2027,500mg,1 inhalation every 4 hours,09/05/2025
+Vitamin D,3,capsule,08/05/2025,20mg,Apply externally twice a day,11/10/2023
+Vitamin D,3,capsule,10/01/2026,10mg,1 inhalation every 4 hours,18/04/2025
+Vitamin D,10,capsule,15/12/2026,10ml,2 tablets daily,23/09/2023
+Vitamin D,8,capsule,01/03/2026,250mg,1 drop in each eye twice daily,28/04/2024
+Vitamin D,2,capsule,04/10/2027,500mg,1 tablet after meals,15/10/2024
+Vitamin D,6,capsule,25/01/2025,500mg,1 capsule daily after breakfast,06/08/2023
+Vitamin D,10,capsule,04/12/2027,5ml,1 injection every 8 hours,08/06/2025
+Vitamin D,9,capsule,02/08/2023,1g,1 capsule daily after breakfast,07/04/2025
+Vitamin D,6,capsule,23/04/2027,0.25mg,1 drop in each eye twice daily,14/12/2024
+Vitamin D,10,capsule,11/11/2025,10mg,1 tablet after meals,21/12/2024
+Aspirin,8,tablet,03/04/2027,1000IU,1 inhalation every 4 hours,28/02/2025
+Aspirin,4,tablet,28/05/2025,5mg,1 injection every 8 hours,30/09/2023
+Aspirin,8,tablet,25/05/2026,20mg,1 inhalation every 4 hours,08/05/2025
+Aspirin,4,tablet,23/10/2024,100mg,1 capsule daily after breakfast,05/10/2024
+Aspirin,1,tablet,25/11/2023,500mg,1 drop in each eye twice daily,04/11/2023
+Aspirin,2,tablet,28/03/2023,250mg,1 capsule daily after breakfast,07/06/2024
+Aspirin,8,tablet,20/06/2027,1000IU,2 tablets daily,18/05/2024
+Aspirin,8,tablet,23/12/2026,10mg,1 tablet after meals,05/05/2024
+Aspirin,2,tablet,09/07/2026,1g,1 drop in each eye twice daily,16/11/2023
+Aspirin,6,tablet,06/10/2025,1000IU,1 injection every 8 hours,24/09/2023
+Aspirin,8,tablet,27/01/2026,5ml,1 drop in each eye twice daily,09/07/2025
+Aspirin,1,tablet,03/06/2027,5mg,2 tablets daily,12/03/2025
+Aspirin,5,tablet,14/11/2027,0.25mg,Apply externally twice a day,21/11/2024
+Omeprazole,3,capsule,10/11/2027,500mg,1 drop in each eye twice daily,24/06/2025
+Omeprazole,1,capsule,17/12/2027,5ml,1 capsule daily after breakfast,05/04/2024
+Omeprazole,8,capsule,24/03/2025,5mg,1 tablet every 6 hours,05/06/2024
+Omeprazole,6,capsule,01/01/2026,0.25mg,1 inhalation every 4 hours,04/11/2023
+Omeprazole,9,capsule,27/09/2026,20mg,2 tablets daily,06/08/2023
+Omeprazole,10,capsule,13/05/2026,10ml,1 tablet every 6 hours,01/07/2025
+Omeprazole,4,capsule,20/09/2026,250mg,1 drop in each eye twice daily,21/07/2024
+Omeprazole,3,capsule,09/08/2027,5ml,1 drop in each eye twice daily,05/11/2024
+Omeprazole,10,capsule,26/08/2027,5ml,1 tablet after meals,09/04/2024
+Omeprazole,7,capsule,05/08/2026,100mg,10ml before bedtime,20/07/2024
+Omeprazole,8,capsule,26/08/2027,20mg,1 tablet every 6 hours,27/02/2024
+Omeprazole,9,capsule,18/05/2027,250mg,1 inhalation every 4 hours,30/12/2024
+Omeprazole,7,capsule,19/04/2027,0.25mg,Apply externally twice a day,08/04/2024
+Omeprazole,8,capsule,21/06/2026,250mg,2 tablets daily,22/01/2024
+Omeprazole,6,capsule,23/02/2024,1g,1 injection every 8 hours,26/11/2023
+Levothyroxine,4,tablet,19/03/2025,5ml,1 inhalation every 4 hours,02/10/2023
+Levothyroxine,6,tablet,10/04/2026,250mg,Apply externally twice a day,02/08/2024
+Clopidogrel,9,tablet,25/09/2026,20mg,Apply externally twice a day,23/01/2025
+Clopidogrel,4,tablet,17/11/2027,0.25mg,2 tablets daily,11/08/2024
+Clopidogrel,8,tablet,02/10/2027,500mg,1 drop in each eye twice daily,09/03/2025
+Clopidogrel,1,tablet,27/07/2026,1g,Apply externally twice a day,17/10/2023
+Clopidogrel,5,tablet,22/10/2027,500mg,1 drop in each eye twice daily,01/12/2023
+Clopidogrel,3,tablet,08/05/2026,10ml,10ml before bedtime,27/10/2024
+Clopidogrel,3,tablet,16/02/2024,5ml,2 tablets daily,14/11/2023
+Clopidogrel,7,tablet,05/08/2027,10mg,10ml before bedtime,04/02/2025
+Clopidogrel,3,tablet,27/04/2027,100mg,2 tablets daily,28/04/2024
+Clopidogrel,9,tablet,15/06/2026,0.25mg,10ml before bedtime,10/12/2024
+Clopidogrel,7,tablet,18/07/2027,0.25mg,2 tablets daily,17/05/2024
+Clopidogrel,7,tablet,21/11/2024,100mg,1 drop in each eye twice daily,22/03/2025
+Clopidogrel,2,tablet,02/04/2026,20mg,1 drop in each eye twice daily,05/07/2024
+Clopidogrel,7,tablet,17/03/2027,100mg,1 drop in each eye twice daily,11/07/2025
+Clopidogrel,8,tablet,18/03/2025,1g,1 tablet every 6 hours,03/08/2024
+Clopidogrel,5,tablet,14/01/2027,5ml,1 drop in each eye twice daily,05/10/2024
+Clopidogrel,6,tablet,27/08/2026,5mg,1 tablet after meals,07/03/2025
+Clopidogrel,5,tablet,18/01/2026,1g,10ml before bedtime,16/06/2025
+Clopidogrel,9,tablet,04/05/2026,5ml,Apply externally twice a day,26/01/2025
+Clopidogrel,7,tablet,15/07/2025,5mg,2 tablets daily,11/10/2023
+Salbutamol,7,inhaler,03/07/2026,0.25mg,1 drop in each eye twice daily,27/06/2024
+Pantoprazole,10,tablet,22/06/2025,10mg,1 injection every 8 hours,18/10/2024
+Pantoprazole,4,tablet,25/11/2026,100mg,1 injection every 8 hours,12/12/2024
+Pantoprazole,7,tablet,09/03/2025,1g,10ml before bedtime,26/03/2024
+Pantoprazole,10,tablet,21/07/2026,10mg,1 capsule daily after breakfast,13/02/2024
+Pantoprazole,4,tablet,25/07/2027,100mg,1 tablet every 6 hours,28/04/2025
+Pantoprazole,9,tablet,17/12/2026,100mg,1 injection every 8 hours,06/06/2025
+Pantoprazole,6,tablet,23/06/2027,250mg,1 tablet after meals,19/03/2025
+Pantoprazole,10,tablet,22/09/2027,5mg,1 capsule daily after breakfast,08/03/2025
+Pantoprazole,5,tablet,10/04/2026,10ml,2 tablets daily,22/12/2023
+Pantoprazole,8,tablet,13/06/2027,5ml,10ml before bedtime,15/12/2023
+Pantoprazole,7,tablet,21/02/2026,0.25mg,2 tablets daily,23/09/2023
+Pantoprazole,1,tablet,27/06/2026,250mg,2 tablets daily,05/12/2024
+Pantoprazole,6,tablet,08/01/2027,250mg,Apply externally twice a day,14/07/2024
+Pantoprazole,1,tablet,11/01/2026,1g,1 injection every 8 hours,09/10/2023
+Prednisolone,9,tablet,03/08/2026,10mg,1 drop in each eye twice daily,23/04/2025
+Prednisolone,8,tablet,03/04/2027,1g,10ml before bedtime,19/05/2024
+Prednisolone,1,tablet,23/02/2027,5ml,1 drop in each eye twice daily,29/08/2023
+Prednisolone,3,tablet,06/09/2026,1g,10ml before bedtime,18/07/2025
+Prednisolone,10,tablet,22/09/2026,10mg,1 injection every 8 hours,06/02/2024
+Prednisolone,2,tablet,26/12/2027,250mg,1 capsule daily after breakfast,05/10/2024
+Prednisolone,2,tablet,04/03/2027,10ml,Apply externally twice a day,25/11/2023
+Prednisolone,4,tablet,02/01/2025,0.25mg,10ml before bedtime,19/06/2024
+Metronidazole,4,tablet,12/07/2023,1000IU,1 tablet after meals,30/09/2024
+Metronidazole,9,tablet,21/03/2025,1000IU,1 inhalation every 4 hours,09/12/2023
+Metronidazole,4,tablet,27/09/2024,10mg,1 injection every 8 hours,26/02/2025
+Metronidazole,3,tablet,28/02/2025,100mg,1 capsule daily after breakfast,20/07/2025
+Metronidazole,8,tablet,15/10/2026,10mg,1 inhalation every 4 hours,28/11/2023
+Metronidazole,10,tablet,26/09/2027,10ml,1 drop in each eye twice daily,14/03/2025
+Metronidazole,4,tablet,22/12/2025,10mg,1 injection every 8 hours,22/03/2024
+Metronidazole,1,tablet,15/03/2023,5mg,1 tablet after meals,20/01/2025
+Metronidazole,3,tablet,18/09/2027,10mg,1 tablet every 6 hours,17/08/2023
+Metronidazole,2,tablet,05/08/2026,250mg,1 inhalation every 4 hours,19/11/2023
+Metronidazole,5,tablet,16/04/2025,500mg,Apply externally twice a day,11/03/2024
+Metronidazole,3,tablet,08/12/2025,0.25mg,1 tablet after meals,25/11/2023
+Metronidazole,8,tablet,18/03/2027,100mg,1 drop in each eye twice daily,22/12/2024
+Metronidazole,6,tablet,11/08/2027,5ml,Apply externally twice a day,07/07/2025
+Metronidazole,3,tablet,20/10/2025,250mg,Apply externally twice a day,01/08/2024
+Metronidazole,1,tablet,07/03/2026,500mg,1 inhalation every 4 hours,28/10/2024
+Metronidazole,9,tablet,09/06/2026,10ml,1 tablet after meals,11/08/2023
+Chloramphenicol,3,eye drop,27/11/2027,20mg,10ml before bedtime,07/08/2024
+Chloramphenicol,8,eye drop,13/05/2025,20mg,1 tablet after meals,29/11/2024
+Chloramphenicol,4,eye drop,05/04/2023,10mg,1 inhalation every 4 hours,19/02/2025
+Chloramphenicol,9,eye drop,23/06/2026,100mg,1 drop in each eye twice daily,24/01/2025
+Chloramphenicol,8,eye drop,08/05/2027,1000IU,1 inhalation every 4 hours,03/06/2024
+Chloramphenicol,4,eye drop,02/04/2027,5ml,1 capsule daily after breakfast,26/01/2024
+Chloramphenicol,2,eye drop,10/02/2025,100mg,1 drop in each eye twice daily,07/08/2024
+Chloramphenicol,7,eye drop,25/10/2026,250mg,Apply externally twice a day,16/06/2024
+Carbamazepine,4,tablet,01/03/2025,5mg,1 inhalation every 4 hours,18/11/2024
+Carbamazepine,3,tablet,11/08/2026,1000IU,10ml before bedtime,11/02/2024
+Carbamazepine,3,tablet,16/02/2026,10ml,2 tablets daily,21/05/2024
+Carbamazepine,7,tablet,25/04/2026,1000IU,2 tablets daily,06/09/2023
+Carbamazepine,9,tablet,14/03/2025,10mg,1 tablet after meals,25/02/2025
+Carbamazepine,10,tablet,19/12/2023,0.25mg,1 drop in each eye twice daily,13/01/2025
+Carbamazepine,4,tablet,08/05/2027,1g,Apply externally twice a day,13/05/2025
+Carbamazepine,7,tablet,20/04/2026,5mg,1 tablet after meals,21/03/2025
+Carbamazepine,3,tablet,21/11/2026,20mg,2 tablets daily,02/05/2025
+Carbamazepine,6,tablet,02/04/2027,0.25mg,1 inhalation every 4 hours,15/07/2024
+Carbamazepine,3,tablet,16/01/2026,10ml,1 capsule daily after breakfast,10/02/2025
+Carbamazepine,10,tablet,05/05/2026,10ml,1 inhalation every 4 hours,26/07/2023
+Carbamazepine,4,tablet,27/01/2027,10ml,Apply externally twice a day,19/08/2024
+Carbamazepine,5,tablet,21/02/2027,5mg,1 inhalation every 4 hours,16/11/2024
+Carbamazepine,6,tablet,28/08/2025,250mg,2 tablets daily,13/01/2024
+Carbamazepine,5,tablet,16/01/2025,1g,1 inhalation every 4 hours,20/10/2023
+Carbamazepine,6,tablet,18/07/2025,10ml,1 injection every 8 hours,16/02/2025
+Carbamazepine,2,tablet,15/10/2026,1000IU,Apply externally twice a day,17/08/2024
+Carbamazepine,3,tablet,14/06/2025,0.25mg,1 drop in each eye twice daily,10/05/2024
+Sodium Chloride,1,injection,26/08/2026,500mg,1 inhalation every 4 hours,27/02/2024
+Sodium Chloride,5,injection,01/06/2025,500mg,1 drop in each eye twice daily,22/02/2024
+Sodium Chloride,1,injection,21/04/2027,250mg,1 tablet after meals,03/08/2024
+Sodium Chloride,7,injection,19/11/2027,1000IU,1 drop in each eye twice daily,29/04/2024
+Sodium Chloride,7,injection,17/03/2026,100mg,1 inhalation every 4 hours,08/07/2024
+Sodium Chloride,8,injection,20/10/2026,5ml,1 tablet after meals,31/07/2023
+Sodium Chloride,5,injection,07/02/2025,100mg,1 drop in each eye twice daily,10/08/2023
+Sodium Chloride,10,injection,19/07/2027,0.25mg,1 tablet every 6 hours,10/12/2024
+Atorvastatin,10,tablet,25/11/2026,5ml,1 injection every 8 hours,26/07/2024
+Diphenhydramine,9,syrup,24/11/2027,10ml,1 capsule daily after breakfast,30/11/2024
+Warfarin,6,tablet,10/12/2027,250mg,1 drop in each eye twice daily,19/05/2024
+Warfarin,6,tablet,26/05/2025,10ml,1 tablet after meals,23/07/2024
+Warfarin,2,tablet,26/10/2025,100mg,Apply externally twice a day,26/08/2024
+Warfarin,5,tablet,04/10/2027,5mg,1 capsule daily after breakfast,01/02/2025
+Warfarin,10,tablet,08/11/2023,10ml,Apply externally twice a day,13/02/2025
+Warfarin,9,tablet,05/03/2026,5mg,1 tablet every 6 hours,04/07/2025
+Warfarin,9,tablet,08/05/2026,5ml,2 tablets daily,28/04/2024
+Warfarin,3,tablet,13/05/2026,250mg,2 tablets daily,04/08/2023
+Warfarin,7,tablet,17/10/2026,10mg,1 tablet every 6 hours,04/09/2024
+Warfarin,1,tablet,23/06/2026,500mg,1 inhalation every 4 hours,10/07/2024
+Warfarin,3,tablet,12/09/2027,500mg,2 tablets daily,23/07/2023
+Warfarin,9,tablet,14/06/2027,1g,1 inhalation every 4 hours,11/05/2024
+Warfarin,1,tablet,08/10/2027,10mg,1 capsule daily after breakfast,18/09/2023
+Warfarin,10,tablet,15/02/2026,5ml,1 drop in each eye twice daily,31/01/2025
+Warfarin,1,tablet,14/01/2023,10mg,2 tablets daily,29/12/2024
+Warfarin,2,tablet,14/04/2027,500mg,Apply externally twice a day,14/09/2024
+Warfarin,7,tablet,18/01/2026,5ml,Apply externally twice a day,12/10/2024
+Warfarin,7,tablet,28/02/2027,10mg,1 inhalation every 4 hours,28/07/2023
+Warfarin,5,tablet,06/08/2024,10ml,2 tablets daily,25/11/2023
+Warfarin,3,tablet,24/03/2027,250mg,10ml before bedtime,01/07/2024
+Codeine,7,syrup,16/08/2025,1000IU,1 tablet every 6 hours,10/01/2025
+Codeine,2,syrup,19/07/2027,20mg,2 tablets daily,02/11/2024
+Codeine,4,syrup,11/09/2027,5ml,1 inhalation every 4 hours,08/03/2025
+Codeine,7,syrup,17/12/2027,1000IU,1 capsule daily after breakfast,03/11/2023
+Codeine,10,syrup,25/07/2027,5ml,1 inhalation every 4 hours,10/10/2023
+Codeine,7,syrup,21/05/2027,10ml,1 inhalation every 4 hours,03/01/2025
+Codeine,6,syrup,13/10/2025,0.25mg,1 inhalation every 4 hours,14/12/2023
+Codeine,10,syrup,17/03/2026,1g,1 drop in each eye twice daily,23/12/2024
+Loratadine,5,tablet,14/09/2026,10mg,10ml before bedtime,05/08/2024
+Loratadine,1,tablet,22/07/2027,10mg,1 tablet after meals,04/02/2024
+Loratadine,5,tablet,28/01/2024,5ml,2 tablets daily,12/02/2024
+Loratadine,3,tablet,13/09/2026,250mg,Apply externally twice a day,04/03/2025
+Loratadine,4,tablet,09/12/2026,10ml,2 tablets daily,01/06/2024
+Loratadine,7,tablet,07/08/2026,5ml,1 inhalation every 4 hours,20/02/2025
+Loratadine,1,tablet,04/10/2026,10mg,2 tablets daily,14/01/2024
+Loratadine,1,tablet,16/09/2027,10ml,1 tablet after meals,08/12/2024
+Loratadine,8,tablet,14/07/2027,0.25mg,10ml before bedtime,03/05/2024
+Loratadine,8,tablet,20/09/2023,10mg,10ml before bedtime,05/12/2024
+Loratadine,5,tablet,08/01/2025,10ml,Apply externally twice a day,16/12/2024
+Loratadine,1,tablet,22/03/2027,500mg,1 inhalation every 4 hours,22/10/2023
+Loratadine,7,tablet,05/05/2026,10ml,1 injection every 8 hours,04/01/2025
+Loratadine,10,tablet,07/05/2024,5ml,1 injection every 8 hours,20/07/2025
+Loratadine,10,tablet,03/06/2027,0.25mg,10ml before bedtime,02/06/2024
+Ibuprofen,8,tablet,21/11/2025,10ml,Apply externally twice a day,10/11/2024
+Ibuprofen,2,tablet,01/08/2026,500mg,10ml before bedtime,25/10/2024
+Ibuprofen,6,tablet,01/12/2027,1000IU,1 injection every 8 hours,27/09/2024
+Ibuprofen,7,tablet,02/11/2025,500mg,Apply externally twice a day,05/08/2024
+Ibuprofen,8,tablet,02/09/2025,1g,1 drop in each eye twice daily,08/12/2023
+Ibuprofen,10,tablet,10/10/2025,10ml,10ml before bedtime,24/09/2024
+Ibuprofen,6,tablet,26/12/2026,500mg,10ml before bedtime,01/01/2025
+Ibuprofen,6,tablet,23/06/2027,500mg,1 tablet after meals,08/11/2023
+Ibuprofen,2,tablet,05/01/2026,5ml,1 drop in each eye twice daily,14/10/2023
+Ibuprofen,4,tablet,12/08/2026,1g,1 tablet after meals,19/10/2024
+Ibuprofen,4,tablet,17/03/2025,250mg,2 tablets daily,28/01/2025
+Ibuprofen,6,tablet,22/06/2026,10ml,1 inhalation every 4 hours,25/12/2024
+Ibuprofen,5,tablet,01/01/2027,1g,1 injection every 8 hours,25/02/2024
+Ibuprofen,3,tablet,07/06/2023,0.25mg,10ml before bedtime,24/10/2023
+Ibuprofen,3,tablet,24/09/2026,5ml,2 tablets daily,03/02/2024
+Ibuprofen,8,tablet,26/07/2026,10mg,Apply externally twice a day,14/04/2024
+Ibuprofen,10,tablet,24/12/2025,10mg,1 injection every 8 hours,13/09/2023
+Morphine,5,injection,01/02/2023,10mg,1 inhalation every 4 hours,22/12/2024
+Morphine,3,injection,01/03/2026,10ml,1 capsule daily after breakfast,28/11/2023
+Morphine,8,injection,06/07/2025,5ml,10ml before bedtime,24/12/2024
+Morphine,4,injection,11/08/2027,1g,Apply externally twice a day,13/12/2024
+Morphine,3,injection,13/09/2027,20mg,1 capsule daily after breakfast,05/03/2024
+Morphine,8,injection,20/02/2026,10ml,1 injection every 8 hours,21/01/2024
+Morphine,10,injection,20/11/2027,1g,1 tablet every 6 hours,11/12/2024
+Morphine,8,injection,09/11/2027,0.25mg,1 inhalation every 4 hours,27/06/2025
+Morphine,3,injection,06/01/2026,0.25mg,1 injection every 8 hours,14/03/2024
+Morphine,1,injection,17/08/2024,10ml,10ml before bedtime,24/09/2024
+Morphine,5,injection,14/07/2027,1g,1 injection every 8 hours,03/09/2023
+Morphine,8,injection,05/07/2023,0.25mg,1 inhalation every 4 hours,07/12/2024
+Clarithromycin,8,tablet,17/08/2027,20mg,1 tablet every 6 hours,10/03/2024
+Clarithromycin,3,tablet,19/10/2027,250mg,1 drop in each eye twice daily,12/06/2025
+Clarithromycin,2,tablet,21/08/2027,10ml,2 tablets daily,25/01/2025
+Clarithromycin,7,tablet,02/03/2026,1000IU,1 drop in each eye twice daily,27/08/2024
+Clarithromycin,1,tablet,22/06/2026,1g,1 inhalation every 4 hours,01/05/2024
+Clarithromycin,3,tablet,03/07/2027,20mg,1 injection every 8 hours,28/02/2024
+Clarithromycin,8,tablet,10/05/2025,5mg,1 capsule daily after breakfast,20/12/2023
+Clarithromycin,6,tablet,19/01/2027,5ml,Apply externally twice a day,25/05/2024
+Clarithromycin,9,tablet,03/01/2027,100mg,1 drop in each eye twice daily,30/06/2025
+Clarithromycin,7,tablet,17/03/2027,500mg,1 tablet every 6 hours,01/06/2024
+Clarithromycin,7,tablet,12/05/2027,1000IU,1 tablet every 6 hours,07/01/2025
+Clarithromycin,9,tablet,11/12/2026,5ml,Apply externally twice a day,09/10/2024
+Clarithromycin,6,tablet,02/04/2026,1000IU,Apply externally twice a day,22/10/2024
+Clarithromycin,3,tablet,03/08/2026,10mg,10ml before bedtime,17/05/2025
+Clarithromycin,7,tablet,04/03/2026,1g,1 injection every 8 hours,30/01/2025
+Clarithromycin,8,tablet,10/10/2026,0.25mg,1 tablet after meals,01/12/2024
+Clarithromycin,4,tablet,08/02/2024,5mg,1 capsule daily after breakfast,11/07/2024
+Clarithromycin,8,tablet,09/01/2027,5mg,1 tablet every 6 hours,22/12/2024
+Clarithromycin,10,tablet,11/04/2026,1g,1 tablet every 6 hours,02/04/2025
+Clarithromycin,8,tablet,14/11/2025,10ml,10ml before bedtime,19/11/2024
