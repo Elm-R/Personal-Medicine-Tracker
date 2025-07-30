@@ -22,7 +22,15 @@ class medicineChildClass(medicineParentClass):
         # update a medicine's quantity in inventory
         #self.update_medicine_quantity("Digoxin","tablet", "02/10/2026", "0.25mg", 20)
 
-        print("List of expired medicines:", self.show_expired_meds())
+        #print("List of expired medicines:", self.show_expired_meds())
+
+        #print("List of expired medicines:", self.show_to_expire_meds_in_x_days(1))
+
+        # upload csv file to s3
+        self.upload_inventory_to_s3(self.set_inventory_csv_file_path(),
+                                    "medicines-inventory",
+                                    f"medicines_inventory{self.get_todays_date()}.csv"
+                                    )
 
 
 if __name__ == "__main__":
