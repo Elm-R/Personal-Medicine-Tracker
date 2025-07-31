@@ -11,6 +11,6 @@
 __pycache__/
 *.py[cod]
 
-# Also ignore Python compiled files
+# Ignore Python compiled files
 *.so
 *.pyd
