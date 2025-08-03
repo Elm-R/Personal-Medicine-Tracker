@@ -19,10 +19,17 @@ class medicineParentClass:
         self.config = None  # to store configuration data
         self.load_config() # initialize config before using it
         self.inventory_csv_file = self.set_inventory_csv_file_path()
+
         self.csv_data = self.read_csv_file()
+
+        #shifiting indices: dataframe indices match the ones from the csv file
+        self.csv_data.index = self.csv_data.index + 2 
         self.converted_exp_dates = self.convert_expiry_dates_to_datetime()
+        
         #self.s3 = boto3.client('s3')
+        self.creds = self.get_aws_creds()
         self.s3_client = self.init_s3_client()
+        self.ses_client = self.init_ses_client()
         
 
     def set_json_file(self):
@@ -64,10 +71,7 @@ class medicineParentClass:
     
     def read_csv_file(self):
         inventory_csv_data = pd.read_csv(self.inventory_csv_file)
-
-        # pd.set_option("display.max_rows", None)        # Show all rows
-        # pd.set_option("display.max_columns", None)     # Show all columns
-
+    
         if inventory_csv_data.empty:
             print("CSV file is empty or not found.")
             return None
@@ -150,7 +154,6 @@ class medicineParentClass:
             print("No matching row found to update.")
 
 
-    
     def show_expired_meds(self):
 
         if self.csv_data is None:
@@ -158,6 +161,7 @@ class medicineParentClass:
            return None     
         
         expired_meds = self.csv_data [self.converted_exp_dates < self.get_todays_date()]
+        
         # print number of rows
         print("number of rows is:", len(expired_meds))
         
@@ -165,8 +169,8 @@ class medicineParentClass:
             print(f"No expired medicines found.")
         else:
             return expired_meds
+            
     
-
     def show_to_expire_meds_in_x_days(self, xdays):
 
         if self.csv_data is None:
@@ -186,6 +190,19 @@ class medicineParentClass:
         else:    
             return to_expire_meds
         
+    def show_to_expire_meds_in_x_days_better_format(self, xdays):
+        to_expire_meds = self.show_to_expire_meds_in_x_days(xdays)  
+        lines = []
+        for i, row in to_expire_meds.iterrows():
+            lines.append(f"{i}. Name: {row['name']}")
+            lines.append(f"   Quantity: {row['quantity_in_packages']}")
+            lines.append(f"   Type: {row['type']}")
+            lines.append(f"   Expiry Date: {row['expiry_date']}")
+            lines.append(f"   Dosage: {row['dosage']}")
+            lines.append(f"   Usage: {row['usage']}")
+            lines.append(f"   Added on: {row['added_on']}\n")
+        return "\n".join(lines)
+        
         # todo: group by type
 
     def get_aws_creds(self):
@@ -196,8 +213,7 @@ class medicineParentClass:
         }
           
     def init_s3_client(self):
-        creds = self.get_aws_creds()
-        self.s3 = boto3.client('s3', **creds)      
+        self.s3 = boto3.client('s3', **self.creds)      # ** more dynamic 
 
     def upload_inventory_to_s3(self, file_path, bucket_name, s3_key, set_owner_control=True):
         
@@ -215,4 +231,54 @@ class medicineParentClass:
             print(f"Uploaded '{file_path}' to 's3://{bucket_name}/{s3_key}' successfully.")
         except Exception as e:
             print(f"Upload failed: {e}")
-   
+
+
+    def init_ses_client(self):
+        return boto3.client('ses', **self.creds)        
+
+
+    def set_sender_email_to_exp_meds(self):
+        return self.config.get("sender_email")
+    
+    def set_recepient_email_to_exp_meds(self):
+        return self.config.get("recipient_email")
+    
+    def set_xdays_for_to_exp_meds(self):
+        xdays = None
+        return xdays
+
+    def build_inventory_message_to_exp_meds(self):
+        xdays = self.set_xdays_for_to_exp_meds()
+        return {
+            'Subject': {'Data': 'Medicine Expiry Alert'},
+            'Body': {
+                'Text': {
+                    'Data': f'You have medicines that are expiring in {xdays} days:\n{self.show_to_expire_meds_in_x_days_better_format(xdays)}'
+                }
+            }
+        }
+
+    
+    def send_email_via_ses_to_exp_meds(self):
+        try:
+            recipient = self.set_recepient_email_to_exp_meds()
+            
+            response = self.ses_client.send_email(
+                Source=self.set_sender_email_to_exp_meds(),
+                #ToAddresses needs a list of addresses
+                Destination={
+                    'ToAddresses': recipient,
+                },
+                Message=self.build_inventory_message_to_exp_meds()
+            )
+            print("Email sent. Message ID:", response['MessageId'])
+            return response
+
+        except Exception as e:
+            print("Error sending email:", str(e))
+            return None
+        
+
+      
+
+          
