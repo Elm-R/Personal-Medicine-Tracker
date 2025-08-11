@@ -4,7 +4,8 @@
 
 A Python-based tool to manage your personal medicine inventory with essential tracking features and integration with AWS for secure storage, automation, and notifications.
 
-This project helps you keep track of your medicines, monitor expiry dates, and securely back up or interact with your inventory using AWS services like S3, SES, and Lambda.
+This project helps you keep track of your medicines, monitor expiry dates, and securely back up or interact with your inventory using AWS services like S3, SES, Lambda
+and EventBridge.
 
 
 ## Core Features (Local)
@@ -18,6 +19,6 @@ This project helps you keep track of your medicines, monitor expiry dates, and s
 ## AWS Features
 - Upload inventory CSV to AWS S3 bucket 
 - Send expiry alert email via AWS SES with a list of medicines expiring in the next 10 days
-- (Planned) Automate expiry checks using AWS Lambda
+- Automate expiry checks and sending emails every 10 days using AWS Lambda and Amazon EventBridge 
 - (Planned) Visualize expiry trends using Grafana and CloudWatch metrics
 

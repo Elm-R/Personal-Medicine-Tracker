@@ -1,6 +1,12 @@
 # Ignore JSON config or data files
 *.json
 
+# Ignore all .zip files anywhere
+*.zip
+
+# Ignore all folders (directories)
+*/
+
 # Ignore document files (Word, PDF, etc.)
 *.doc
 *.docx
