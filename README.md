@@ -20,5 +20,6 @@ and EventBridge.
 - Upload inventory CSV to AWS S3 bucket 
 - Send expiry alert email via AWS SES with a list of medicines expiring in the next 10 days
 - Automate expiry checks and sending emails every 10 days using AWS Lambda and Amazon EventBridge 
-- (Planned) Visualize expiry trends using Grafana and CloudWatch metrics
+- Sent the required metrics to CloudWatch
+- (Planned) Visualize expiry trends with Grafana using CloudWatch metrics
 

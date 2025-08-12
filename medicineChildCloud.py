@@ -94,12 +94,46 @@ class medicineChildCloudClass(medicineParentClass):
             return None
       
 
+    def prepare_metric_data(self, row_number, expiry_date):
+        # Prepare CloudWatch metric data for each row
+
+        expiry_timestamp = int(expiry_date.timestamp())
+    
+        metric_data = [
+            {
+                'MetricName': 'MedicineExpiryTimestamp',
+                'Dimensions': [{'Name': 'RowNumber', 'Value': str(row_number)}],
+                'Timestamp': self.get_todays_date(),
+                'Value': expiry_timestamp,
+                'Unit': 'Seconds'
+            }
+        ]
+        
+        self.cloudwatch_client.put_metric_data(
+            Namespace='MedicineInventory',
+            MetricData=metric_data
+        )
+
+
+    def send_metrics_to_cloudwatch(self):
+        
+        #Send metrics for all medicines expiring soon
+        meds_expiring_soon = self.show_to_expire_meds_in_x_days(10)
+        
+        for idx, row in meds_expiring_soon.iterrows():
+            row_number = idx 
+            expiry_date = row['expiry_date']
+            
+            self.prepare_metric_data(row_number, expiry_date)
+            print(f"Sent metrics for row {row_number}: expiry={expiry_date.date()}")
+
+
     def run_all(self):
         
        #print(self.get_aws_access_key_id()) 
 
        #self.set_csv_data_index() 
-       print(self.read_csv_file())
+       #print(self.read_csv_file())
        #self.convert_expiry_dates_to_datetime()
 
        #print("List expired medicines:", self.show_expired_meds())
@@ -115,7 +149,7 @@ class medicineChildCloudClass(medicineParentClass):
 
        #self.send_email_via_ses_to_exp_meds() 
        
-       
+       self.send_metrics_to_cloudwatch()
         
 
 

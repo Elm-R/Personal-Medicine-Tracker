@@ -25,6 +25,7 @@ class medicineParentClass:
         self.creds = self.get_aws_creds()
         self.s3_client = self.init_s3_client()
         self.ses_client = self.init_ses_client()
+        self.cloudwatch_client = self.init_cloudwatch_client()
 
         self.csv_data = self.read_csv_file()
         self.shift_csv_data_index()
@@ -37,6 +38,8 @@ class medicineParentClass:
     def init_ses_client(self):
         return boto3.client('ses', **self.creds)    
     
+    def init_cloudwatch_client(self):
+        return boto3.client('cloudwatch', **self.creds)
 
     def get_aws_access_key_id(self):
         return self.config.get("aws_access_key_id") 
