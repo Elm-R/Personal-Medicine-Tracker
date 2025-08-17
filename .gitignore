@@ -4,9 +4,6 @@
 # Ignore all .zip files anywhere
 *.zip
 
-# Ignore all folders (directories)
-*/
-
 # Ignore document files (Word, PDF, etc.)
 *.doc
 *.docx
@@ -20,3 +17,13 @@ __pycache__/
 # Ignore Python compiled files
 *.so
 *.pyd
+
+# Ignore Lambda deployment packages
+lambda_package/
+
+# Terraform directories and files 
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars 
+user_keys.tf

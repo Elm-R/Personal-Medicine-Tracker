@@ -23,3 +23,7 @@ and EventBridge.
 - Sent the required metrics to CloudWatch
 - (Planned) Visualize expiry trends with Grafana using CloudWatch metrics
 
+## Infrastructure as code (IaC)
+- Use Terraform to manage AWS resources, making deployment reproducible and version-controlled
+
+
