@@ -25,13 +25,20 @@ class medicineChildCloudClass(medicineParentClass):
         return 10   
 
     def get_sender_email_to_exp_meds(self):
-        return self.config.get("sender_email")
+        return os.getenv("SENDER_EMAIL", self.config.get("sender_email"))
+
     
     def get_recepient_email_to_exp_meds(self):
-        return self.config.get("recipient_email")
+        # env variables for docker
+        env_emails = os.getenv("RECIPIENT_EMAIL")
+        if env_emails:
+            # Split comma-separated emails into a list
+            return [email.strip() for email in env_emails.split(",")]
+        # Fall back to JSON config
+        return self.config.get("recipient_email", [])
 
     def get_aws_s3_bucket_name_for_meds(self):
-        return self.config.get("medicines_inventory_bucket_name")   
+        return os.getenv("MEDICINES_INVENTORY_BUCKET", self.config.get("medicines_inventory_bucket_name"))  
 
     def read_csv_file(self):
 
@@ -129,8 +136,7 @@ class medicineChildCloudClass(medicineParentClass):
 
 
     def run_all(self):
-        
-       #print(self.get_aws_access_key_id()) 
+         
 
        #self.set_csv_data_index() 
        #print(self.read_csv_file())
@@ -145,11 +151,11 @@ class medicineChildCloudClass(medicineParentClass):
     #                                 f"medicines_inventory{self.get_todays_date()}.csv"
     #                                 )
 
-       #print(self.build_inventory_message_to_exp_meds())  
+       print(self.build_inventory_message_to_exp_meds())  
 
        #self.send_email_via_ses_to_exp_meds() 
        
-       self.send_metrics_to_cloudwatch()
+       #self.send_metrics_to_cloudwatch()
         
 
 

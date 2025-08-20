@@ -37,16 +37,24 @@ user_keys.tf
 # =========================
 # Docker
 # =========================
-# .dockerignore
-# Dockerfile
-# docker-compose.yml
+.dockerignore
+Dockerfile
+docker-compose.yml
+
 
 # =========================
-# Folders
+# Documents
 # =========================
-lambda_package/
+*.doc
+*.docx
+*.odt
+*.pdf
 
-
+# =========================
+# Git
+# =========================
+.git
+.gitignore
 
 # =========================
 # Python
@@ -70,10 +78,4 @@ Thumbs.db
 *.tfstate.backup
 *.tfvars
 
-# =========================
-# Documents
-# =========================
-*.doc
-*.docx
-*.odt
-*.pdf
+

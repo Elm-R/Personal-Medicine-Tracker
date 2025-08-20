@@ -93,8 +93,13 @@ class medicineParentClass:
             print(f"Error loading config: {e}")
             self.config = {}
 
+    # def set_inventory_csv_file_path(self):
+    #     return self.config.get("csv_path")
+
     def set_inventory_csv_file_path(self):
-        return self.config.get("csv_path")
+    # Use environment variable if set, otherwise fallback to JSON
+    # Use environment variable for docker path
+        return os.getenv("INVENTORY_CSV", self.config.get("csv_path"))
     
     def read_csv_file(self):
         inventory_csv_data = pd.read_csv(self.inventory_csv_file)
