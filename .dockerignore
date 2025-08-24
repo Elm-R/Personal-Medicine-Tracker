@@ -50,11 +50,26 @@ docker-compose.yml
 *.odt
 *.pdf
 
+
+# =========================
+# Folders
+# =========================
+lambda_package/
+
 # =========================
 # Git
 # =========================
 .git
 .gitignore
+
+
+# =========================
+# Ignore Kubernetes secrets
+# =========================
+aws_secret.yaml
+medicines-config.yaml
+kubernetes/configmaps/
+kubernetes/secrets/
 
 # =========================
 # Python

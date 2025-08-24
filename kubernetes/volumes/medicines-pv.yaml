@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: medicines-pv
+spec:
+  capacity:
+    storage: 200Mi
+  accessModes:
+    - ReadWriteMany
+  hostPath:
+    path: /home/docker/csv      # directory on the host node
+    type: DirectoryOrCreate

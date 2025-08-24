@@ -42,11 +42,26 @@ user_keys.tf
 # docker-compose.yml
 
 # =========================
+# Documents
+# =========================
+*.doc
+*.docx
+*.odt
+*.pdf
+
+# =========================
 # Folders
 # =========================
 lambda_package/
 
 
+# =========================
+# Ignore Kubernetes secrets
+# =========================
+aws_secret.yaml
+medicines-config.yaml
+kubernetes/configmaps/
+kubernetes/secrets/
 
 # =========================
 # Python
@@ -70,10 +85,3 @@ Thumbs.db
 *.tfstate.backup
 *.tfvars
 
-# =========================
-# Documents
-# =========================
-*.doc
-*.docx
-*.odt
-*.pdf

@@ -1,0 +1,42 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: lambda-app
+  labels:
+    app: medicine-tracker
+    component: lambda-app
+spec:
+  template:
+    metadata:
+      labels:
+        app: medicine-tracker
+        component: lambda-app
+    spec:
+      containers:
+      - name: lambda-app
+        image: personalmedicinetracker-lambda-app
+        imagePullPolicy: Never
+        envFrom:
+          - secretRef:
+              name: aws-credentials
+              
+          - configMapRef:
+              name: medicines-config    
+        volumeMounts:
+          - name: csv-volume
+            mountPath: /app/medicines_inventory.csv
+            subPath: medicines_inventory.csv
+        resources:
+          requests:
+            memory: "500Mi"
+            cpu: "500m"
+          limits:
+            memory: "512Mi"
+            cpu: "600m"
+            
+      restartPolicy: Never
+
+      volumes:
+        - name: csv-volume
+          persistentVolumeClaim:
+            claimName: medicines-pvc

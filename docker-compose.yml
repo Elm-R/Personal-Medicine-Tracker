@@ -3,7 +3,7 @@ services:
   local-app:
     build:
       context: .
-      dockerfile: docker_local/Dockerfile.local
+      dockerfile: docker/docker_local/Dockerfile.local
     env_file:
       - .env 
     container_name: local-app-container
@@ -11,7 +11,7 @@ services:
   lambda-app:
     build:
       context: .
-      dockerfile: docker_lambda/Dockerfile.lambda
+      dockerfile: docker/docker_lambda/Dockerfile.lambda
     env_file:
       - .env  
     container_name: lambda-app-container
@@ -19,7 +19,7 @@ services:
   cloud-app:
     build:
       context: .
-      dockerfile: docker_cloud/Dockerfile.cloud
+      dockerfile: docker/docker_cloud/Dockerfile.cloud
     env_file:
       - .env  
     container_name: cloud-app-container

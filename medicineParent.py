@@ -41,14 +41,23 @@ class medicineParentClass:
     def init_cloudwatch_client(self):
         return boto3.client('cloudwatch', **self.creds)
 
+    # def get_aws_access_key_id(self):
+    #     return self.config.get("aws_access_key_id") 
+    
+    # def get_aws_secret_access_key(self):
+    #     return self.config.get("aws_secret_access_key") 
+    
+    # def get_aws_region_name(self):
+    #     return self.config.get("region_name") 
+
     def get_aws_access_key_id(self):
-        return self.config.get("aws_access_key_id") 
-    
+        return os.getenv("AWS_ACCESS_KEY_ID", self.config.get("aws_access_key_id"))
+
     def get_aws_secret_access_key(self):
-        return self.config.get("aws_secret_access_key") 
-    
+        return os.getenv("AWS_SECRET_ACCESS_KEY", self.config.get("aws_secret_access_key"))
+
     def get_aws_region_name(self):
-        return self.config.get("region_name") 
+        return os.getenv("AWS_DEFAULT_REGION", self.config.get("region_name"))
     
     def get_aws_creds(self):
         return {

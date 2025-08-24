@@ -29,11 +29,15 @@ It also includes Terraform for infrastructure as code and Docker for containeriz
 - Use Terraform to manage AWS resources, making deployment reproducible and version-controlled
 
 ## Docker Setup
-- The project uses Docker to containerize all components.
-- Each application (local tracker, Lambda-based email sender, cloud-based file) has its own Dockerfile stored in a dedicated folder.
-- The CSV file is stored in the project root and copied into each container at build time.
-- A single docker-compose.yml manages all three containers.
- 
+- The project uses Docker to containerize all components
+- Each application (local tracker, Lambda-based email sender, cloud-based file) has its own Dockerfile stored in a dedicated folder
+- The CSV file is stored in the project root and copied into each container at build time
+- A single docker-compose.yml manages all three containers
+
+## Kubernetes Setup
+- Each application runs as a Kubernetes Job executing Python scripts to completion
+- CSV included in the image (optionally shared via PersistentVolumeClaim)
+- AWS credentials via Secrets, non-sensitive config via ConfigMaps, accessed as environment variables
 
 
 
