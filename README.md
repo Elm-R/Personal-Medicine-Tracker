@@ -7,7 +7,7 @@ A Python-based tool to manage your personal medicine inventory with essential tr
 This project helps you keep track of your medicines, monitor expiry dates, and securely back up or interact with your inventory using AWS services like S3, SES, Lambda
 and EventBridge.
 
-It also includes Terraform for infrastructure as code and Docker for containerization of all components.
+It also includes Terraform for infrastructure as code, Docker for containerization of components, and Kubernetes for orchestration and job execution.
 
 
 ## Core Features (Local)

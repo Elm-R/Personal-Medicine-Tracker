@@ -174,10 +174,10 @@ class medicineChildDBClass():
             "Methotrexate", 10, "Tablet", "2027-06-30", "25mg", 
              "Take once weekly under medical supervision", "2025-09-20")
 
-        add_med_query, values = self.set_query_update_medicine(
+        update_med_query, values = self.set_query_update_medicine(
             2457, quantity_in_packages=20, dosage="5mg")     
 
-        results = medChildDBObj.execute_query(add_med_query, values)
+        results = medChildDBObj.execute_query(update_med_query, values)
 
         self.print_results()
 
