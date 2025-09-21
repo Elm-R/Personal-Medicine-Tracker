@@ -6,22 +6,25 @@ import os
 # from io import StringIO
 from datetime import datetime, timedelta
 
+from dotenv import load_dotenv
 import boto3
 
 
 # Class Constructor
 class medicineParentClass:
     def __init__(self):
+        # load envirenment variables
+        load_dotenv()
         # Set display options
         pd.set_option('display.max_rows', None)
         pd.set_option('display.max_columns', None)
-
+        
         
         self.json_file = self.set_json_file()
         self.config = None  # to store configuration data
         self.load_config() # initialize config before using it
         self.inventory_csv_file = self.set_inventory_csv_file_path()
-
+    
         self.creds = self.get_aws_creds()
         self.s3_client = self.init_s3_client()
         self.ses_client = self.init_ses_client()
@@ -41,18 +44,10 @@ class medicineParentClass:
     def init_cloudwatch_client(self):
         return boto3.client('cloudwatch', **self.creds)
 
-    # def get_aws_access_key_id(self):
-    #     return self.config.get("aws_access_key_id") 
-    
-    # def get_aws_secret_access_key(self):
-    #     return self.config.get("aws_secret_access_key") 
-    
-    # def get_aws_region_name(self):
-    #     return self.config.get("region_name") 
-
     def get_aws_access_key_id(self):
         return os.getenv("AWS_ACCESS_KEY_ID", self.config.get("aws_access_key_id"))
-
+    
+    
     def get_aws_secret_access_key(self):
         return os.getenv("AWS_SECRET_ACCESS_KEY", self.config.get("aws_secret_access_key"))
 

@@ -4,22 +4,38 @@ services:
     build:
       context: .
       dockerfile: docker/docker_local/Dockerfile.local
+    container_name: local-app-container  
     env_file:
       - .env 
-    container_name: local-app-container
+    
 
   lambda-app:
     build:
       context: .
       dockerfile: docker/docker_lambda/Dockerfile.lambda
+    container_name: lambda-app-container  
     env_file:
       - .env  
-    container_name: lambda-app-container
 
   cloud-app:
     build:
       context: .
       dockerfile: docker/docker_cloud/Dockerfile.cloud
+    container_name: cloud-app-container  
     env_file:
-      - .env  
-    container_name: cloud-app-container
+      - .env
+
+  mysqldb-app:
+    build:
+      context: .
+      dockerfile: docker/docker_mysql/Dockerfile.mysql
+    container_name: mysqldb-app-container  
+    ports:
+      - "${DB_PORT}:3306"  
+    env_file:
+      - .env
+    volumes:
+      - mysql-data:/var/lib/mysql
+    restart: unless-stopped
+volumes:
+  mysql-data:
