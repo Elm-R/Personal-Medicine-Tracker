@@ -1,5 +1,6 @@
 
 import mysql.connector
+
 from dotenv import load_dotenv
 import os
 
@@ -66,8 +67,16 @@ class medicineChildDBClass():
         return "name, quantity_in_packages, medicine_type, " \
         "expiry_date, dosage, usage_instructions, added_on"
 
-    # add meds, delete records, update records, show expired meds
+    # show all meds, add meds, delete records, update records, show expired meds
     # show meds to expire in 10 days
+
+    def set_query_show_all_meds(self):
+        show_all_meds_query = f"""
+        SELECT {self.get_medicine_columns_select()}
+        FROM medicines_inventory
+        """
+        return show_all_meds_query
+
     def set_query_show_expired_meds(self):
         
         show_expired_meds_query = f"""
@@ -110,6 +119,23 @@ class medicineChildDBClass():
         values = tuple(fields.values()) + (id,)
 
         return query, values
+    
+    def set_query_delete_medicines(self, ids):
+        """ DELETE  one or multiple medicine records by id.
+        e.g. (10) or ([10, 11, 12])
+        """
+        # single int into a list
+        if isinstance(ids, int):
+            ids = [ids]
+
+        if not ids:
+            raise ValueError("No IDs provided for deletion.")
+
+        placeholders = ", ".join(["%s"] * len(ids))
+        query = f"DELETE FROM medicines_inventory WHERE id IN ({placeholders})"
+        values = tuple(ids)
+        return query, values
+
 
     def connect(self):
         try:
@@ -165,7 +191,7 @@ class medicineChildDBClass():
     def run_all(self):
         self.connect()
 
-        select_query = "SELECT * FROM medicines_inventory"
+        select_all_meds_query = self.set_query_show_all_meds()
         show_exp_meds_query = self.set_query_show_expired_meds()
 
         meds_expiring_in_10_days_query =self.set_query_show_meds_expiring_in_10_days()
@@ -176,8 +202,14 @@ class medicineChildDBClass():
 
         update_med_query, values = self.set_query_update_medicine(
             2457, quantity_in_packages=20, dosage="5mg")     
+        
+        delete_med_query, values =self.set_query_delete_medicines(2457)
 
-        results = medChildDBObj.execute_query(update_med_query, values)
+        # for select queries
+        #results = medChildDBObj.execute_query(select_all_meds_query)
+
+        # for other operations
+        results = medChildDBObj.execute_query(delete_med_query, values)
 
         self.print_results()
 

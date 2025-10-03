@@ -1,13 +1,17 @@
-from medicineChildCloud import medicineChildCloudClass
+from medicineCloud import medicineCloudClass
 
-class LambdaEmailSender(medicineChildCloudClass):
+class LambdaEmailSender(medicineCloudClass):
     def __init__(self):
         super().__init__()
 
     def handle(self, event, context):
         try:
             
+            self.connect()
+            
             self.send_email_via_ses_to_exp_meds()
+
+            self.close_connection()
 
             return {
                 'statusCode': 200,
