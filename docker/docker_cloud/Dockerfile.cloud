@@ -11,10 +11,10 @@ COPY docker/docker_cloud/requirements.txt /app/requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy application code into the image
-COPY medicineChildLocal.py /app/
-COPY medicineChildCloud.py /app/
-COPY medicineParent.py /app/
+COPY medicineDB.py /app/
+COPY medicineEmailsAndMessages.py /app/
+COPY medicineCloud.py /app/
 
 
 # Run the main script
-CMD ["python", "medicineChildCloud.py"]
+CMD ["python", "medicineCloud.py"]

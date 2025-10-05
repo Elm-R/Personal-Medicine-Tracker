@@ -11,11 +11,10 @@ COPY docker/docker_lambda/requirements.txt /app/requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy application code into the image
-COPY medicineChildLocal.py /app/
-COPY medicineChildCloud.py /app/
-COPY medicineParent.py /app/
+COPY medicineDB.py /app/
+COPY medicineEmailsAndMessages.py /app/
+COPY medicineCloud.py /app/
 COPY lambdaFunctionEmailSES.py /app/
-
 
 
 # Run the main script

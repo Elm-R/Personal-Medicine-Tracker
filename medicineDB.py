@@ -189,31 +189,31 @@ class medicineChildDBClass():
      
 
     def run_all(self):
-        self.connect()
+        # self.connect()
 
         select_all_meds_query = self.set_query_show_all_meds()
-        show_exp_meds_query = self.set_query_show_expired_meds()
+        # show_exp_meds_query = self.set_query_show_expired_meds()
 
-        meds_expiring_in_10_days_query =self.set_query_show_meds_expiring_in_10_days()
+        # meds_expiring_in_10_days_query =self.set_query_show_meds_expiring_in_10_days()
 
-        add_med_query, values = self.set_query_add_medicine(
-            "Methotrexate", 10, "Tablet", "2027-06-30", "25mg", 
-             "Take once weekly under medical supervision", "2025-09-20")
+        # add_med_query, values = self.set_query_add_medicine(
+        #     "Methotrexate", 10, "Tablet", "2027-06-30", "25mg", 
+        #      "Take once weekly under medical supervision", "2025-09-20")
 
-        update_med_query, values = self.set_query_update_medicine(
-            2457, quantity_in_packages=20, dosage="5mg")     
+        # update_med_query, values = self.set_query_update_medicine(
+        #     2457, quantity_in_packages=20, dosage="5mg")     
         
-        delete_med_query, values =self.set_query_delete_medicines(2457)
+        # delete_med_query, values =self.set_query_delete_medicines(2457)
 
-        # for select queries
-        #results = medChildDBObj.execute_query(select_all_meds_query)
+        # # for select queries
+        # #results = medChildDBObj.execute_query(select_all_meds_query)
 
-        # for other operations
-        results = medChildDBObj.execute_query(delete_med_query, values)
+        # # for other operations
+        # results = medChildDBObj.execute_query(delete_med_query, values)
 
-        self.print_results()
+        # self.print_results()
 
-        self.close_connection()
+        # self.close_connection()
 
 if __name__ == "__main__":      
 

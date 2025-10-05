@@ -1,12 +1,13 @@
 
 services:
-  local-app:
+  messages-app:
     build:
       context: .
-      dockerfile: docker/docker_local/Dockerfile.local
-    container_name: local-app-container  
+      dockerfile: docker/docker_Messages/Dockerfile.messages
+    container_name: messages-app-container  
     env_file:
       - .env 
+    restart: "no"  
     
 
   lambda-app:
@@ -16,6 +17,7 @@ services:
     container_name: lambda-app-container  
     env_file:
       - .env  
+    restart: "no"  
 
   cloud-app:
     build:
@@ -24,6 +26,7 @@ services:
     container_name: cloud-app-container  
     env_file:
       - .env
+    restart: "no"  
 
   mysqldb-app:
     build:
@@ -31,11 +34,12 @@ services:
       dockerfile: docker/docker_mysql/Dockerfile.mysql
     container_name: mysqldb-app-container  
     ports:
-      - "${DB_PORT}:3306"  
+      - "3307:3306"  
     env_file:
       - .env
     volumes:
       - mysql-data:/var/lib/mysql
-    restart: unless-stopped
+    restart: "no"
+
 volumes:
   mysql-data:

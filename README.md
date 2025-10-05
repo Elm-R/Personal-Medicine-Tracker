@@ -29,13 +29,14 @@ It also includes Terraform for infrastructure as code, Docker for containerizati
 
 ## Docker Setup
 - The project uses Docker to containerize all components
-- (in edit mode to apply the new changes) Each module (Database service, Cloud integration, Messaging & Emails, Lambda-based email sender) has its own Dockerfile stored in a dedicated folder
+- Each module (Database service, Cloud integration, Messaging & Emails, Lambda-based email sender) has its own Dockerfile stored in a dedicated folder
 - The MySQL database runs as a Docker service, replacing the previous CSV-only approach
-- A single docker-compose.yml manages all three containers
+- A single docker-compose.yml manages all four containers
 
 ## Kubernetes Setup
 - Each application runs as a Kubernetes Job executing Python scripts to completion
 - CSV included in the image (optionally shared via PersistentVolumeClaim)
+- (Planned) Replace the CSV-only approach with the Database approach
 - AWS credentials via Secrets, non-sensitive config via ConfigMaps, accessed as environment variables
 
 

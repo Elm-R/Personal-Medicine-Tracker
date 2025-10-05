@@ -72,6 +72,7 @@ class medicineEmailsAndMessagesClass(medicineChildDBClass):
 
     def run_all(self):
         self.connect()
+        
         print(self.build_inventory_message_to_exp_meds())
         
         self.close_connection()
