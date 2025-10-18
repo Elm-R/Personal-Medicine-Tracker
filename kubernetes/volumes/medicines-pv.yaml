@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: PersistentVolume
 metadata:
-  name: medicines-pv
+  name: mysql-pv
 spec:
   capacity:
     storage: 200Mi
   accessModes:
-    - ReadWriteMany
+    - ReadWriteOnce
   hostPath:
-    path: /home/docker/csv      # directory on the host node
-    type: DirectoryOrCreate
+    path: /mnt/data/mysql       # local path on node (for dev/minikube)
+  persistentVolumeReclaimPolicy: Retain

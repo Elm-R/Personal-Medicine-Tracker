@@ -28,11 +28,11 @@ services:
       - .env
     restart: "no"  
 
-  mysqldb-app:
+  mysqldb-service:
     build:
       context: .
       dockerfile: docker/docker_mysql/Dockerfile.mysql
-    container_name: mysqldb-app-container  
+    container_name: mysqldb-service-container
     ports:
       - "3307:3306"  
     env_file:

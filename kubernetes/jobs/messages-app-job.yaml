@@ -1,20 +1,20 @@
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: cloud-app                        # Job name
+  name: message-app                 
   labels:
-    app: medicine-tracker
-    component: cloud-app                 # component label
+    app: medicine-tracker           # global project label
+    component: message-app          # component-specific label
 spec:
   template:
     metadata:
       labels:
         app: medicine-tracker
-        component: cloud-app
+        component: message-app
     spec:
       containers:
-        - name: cloud-app
-          image: elmri/personalmedicinetracker-cloud-app:latest
+        - name: message-app         # container name
+          image: elmri/personalmedicinetracker-messages-app:latest
           imagePullPolicy: IfNotPresent
           envFrom:
             - secretRef:
@@ -22,8 +22,7 @@ spec:
             - secretRef:
                 name: db-mysql-secrets      
             - configMapRef:
-                name: medicines-config      
-
+                name: medicines-config            # optional
           resources:
             requests:
               memory: "500Mi"
@@ -31,5 +30,4 @@ spec:
             limits:
               memory: "512Mi"
               cpu: "600m"
-
       restartPolicy: Never

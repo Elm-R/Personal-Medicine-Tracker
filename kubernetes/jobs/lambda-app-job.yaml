@@ -1,10 +1,10 @@
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: lambda-app
+  name: lambda-app                        # Job name
   labels:
     app: medicine-tracker
-    component: lambda-app
+    component: lambda-app                 # component label
 spec:
   template:
     metadata:
@@ -13,30 +13,23 @@ spec:
         component: lambda-app
     spec:
       containers:
-      - name: lambda-app
-        image: personalmedicinetracker-lambda-app
-        imagePullPolicy: Never
-        envFrom:
-          - secretRef:
-              name: aws-credentials
-              
-          - configMapRef:
-              name: medicines-config    
-        volumeMounts:
-          - name: csv-volume
-            mountPath: /app/medicines_inventory.csv
-            subPath: medicines_inventory.csv
-        resources:
-          requests:
-            memory: "500Mi"
-            cpu: "500m"
-          limits:
-            memory: "512Mi"
-            cpu: "600m"
-            
-      restartPolicy: Never
+        - name: lambda-app
+          image: elmri/personalmedicinetracker-lambda-app:latest 
+          imagePullPolicy: IfNotPresent
+          envFrom:
+            - secretRef:
+                name: aws-credentials       
+            - secretRef:
+                name: db-mysql-secrets      
+            - configMapRef:
+                name: medicines-config      
+                  
+          resources:
+            requests:
+              memory: "500Mi"
+              cpu: "500m"
+            limits:
+              memory: "512Mi"
+              cpu: "600m"
 
-      volumes:
-        - name: csv-volume
-          persistentVolumeClaim:
-            claimName: medicines-pvc
+      restartPolicy: Never

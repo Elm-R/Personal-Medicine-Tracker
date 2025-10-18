@@ -1,0 +1,57 @@
+# MySQL Service
+apiVersion: v1
+kind: Service
+metadata:
+  name: mysqldb-service          # name of the service (DNS name inside cluster)
+spec:
+  selector:                      # connects service to pods with these labels
+    app: medicine-tracker
+    component: mysqldb
+  ports:
+    - port: 3306                 # service port (used by other pods)
+      targetPort: 3306           # container port to forward traffic to
+  type: ClusterIP                # default; internal access only
+---
+# MySQL Deployment 
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mysqldb-deployment       # name of the deployment
+  labels:
+    app: medicine-tracker
+    component: mysqldb
+spec:
+  replicas: 1                    # number of mysql pods to run
+  selector:
+    matchLabels:                 # must match pod template labels below
+      app: medicine-tracker
+      component: mysqldb
+  template:
+    metadata:
+      labels:                    # labels used by service & deployment
+        app: medicine-tracker
+        component: mysqldb
+    spec:
+      containers:
+        - name: mysqldb
+          image: elmri/personalmedicinetracker-mysqldb-service:latest   
+          imagePullPolicy: IfNotPresent                       # don't pull from registry
+          envFrom:
+            - secretRef:
+                name: db-mysql-secrets                 # load env vars from secret
+          ports:
+            - containerPort: 3306                      # mysql default port
+          resources:                                  # minimal resource setup
+            requests:
+              memory: "256Mi"                         # reserved for scheduling
+              cpu: "100m"
+            limits:
+              memory: "512Mi"                         # max allowed
+              cpu: "500m"
+          volumeMounts:
+            - name: mysql-storage
+              mountPath: /var/lib/mysql   # mount PVC into container so MySQL data persists
+      volumes:  
+        - name: mysql-storage
+          persistentVolumeClaim:
+            claimName: mysql-pvc       # connects Pod to PVC → PV (persistent storage)    
