@@ -6,8 +6,8 @@ services:
       context: .
       dockerfile: docker/docker_Messages/Dockerfile.messages
     container_name: messages-app-container
-    env_file:
-      - .env
+    # env_file:
+    #   - .env
     restart: "no"
 
   lambda-app:
@@ -16,8 +16,8 @@ services:
       context: .
       dockerfile: docker/docker_lambda/Dockerfile.lambda
     container_name: lambda-app-container
-    env_file:
-      - .env
+    # env_file:
+    #   - .env
     restart: "no"
 
   cloud-app:
@@ -26,8 +26,8 @@ services:
       context: .
       dockerfile: docker/docker_cloud/Dockerfile.cloud
     container_name: cloud-app-container
-    env_file:
-      - .env
+    # env_file:
+    #   - .env
     restart: "no"
 
   mysqldb-service:
@@ -38,8 +38,8 @@ services:
     container_name: mysqldb-service-container
     ports:
       - "3307:3306"
-    env_file:
-      - .env
+    # env_file:
+    #   - .env
     volumes:
       - mysql-data:/var/lib/mysql
     restart: "no"
