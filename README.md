@@ -6,7 +6,12 @@ A Python-based tool to manage your personal medicine inventory with essential tr
 
 This project helps you keep track of your medicines, monitor expiry dates, and securely back up or interact with your inventory using AWS services like S3, SES, Lambda, EventBridge and CloudWatch.
 
-The project also uses Terraform for infrastructure as code, Docker for containerizing components, and Kubernetes for orchestration and job execution, including a MySQL database deployed as a Kubernetes Deployment.
+This project uses the following technologies:
+
+- Terraform: manages infrastructure as code for reproducible deployments.  
+- Docker: containerizes all application components.    
+- GitHub Actions (CI/CD): automatically builds Docker images, tags them with `latest` and the Git commit hash, and pushes them to Docker Hub.  
+- Kubernetes: Kubernetes orchestrates jobs and runs a MySQL database as a Deployment for persistent storage.
 
 
 ## Core Features (Local)
@@ -32,6 +37,13 @@ The project also uses Terraform for infrastructure as code, Docker for container
 - Each module (Database service, Cloud integration, Messaging & Emails, Lambda-based email sender) has its own Dockerfile stored in a dedicated folder
 - The MySQL database runs as a Docker service, replacing the previous CSV-only approach
 - A single docker-compose.yml manages all four containers
+
+
+## CI/CD Overview
+- GitHub Actions workflow builds all Docker images using `docker-compose`  
+- Each image is tagged with `latest` and the Git commit hash for versioned deployments  
+- All images are automatically pushed to Docker Hub
+
 
 ## Kubernetes Setup
 - Each application runs as a Kubernetes Job executing Python scripts to completion

@@ -35,7 +35,7 @@ spec:
       containers:
         - name: mysqldb
           image: elmri/personalmedicinetracker-mysqldb-service:latest   
-          imagePullPolicy: IfNotPresent                       # don't pull from registry
+          imagePullPolicy: IfNotPresent                       
           envFrom:
             - secretRef:
                 name: db-mysql-secrets                 # load env vars from secret

@@ -1,40 +1,43 @@
 
 services:
   messages-app:
+    image: ${DOCKER_USERNAME}/personalmedicinetracker-messages-app:latest
     build:
       context: .
       dockerfile: docker/docker_Messages/Dockerfile.messages
-    container_name: messages-app-container  
+    container_name: messages-app-container
     env_file:
-      - .env 
-    restart: "no"  
-    
+      - .env
+    restart: "no"
 
   lambda-app:
+    image: ${DOCKER_USERNAME}/personalmedicinetracker-lambda-app:latest
     build:
       context: .
       dockerfile: docker/docker_lambda/Dockerfile.lambda
-    container_name: lambda-app-container  
+    container_name: lambda-app-container
     env_file:
-      - .env  
-    restart: "no"  
+      - .env
+    restart: "no"
 
   cloud-app:
+    image: ${DOCKER_USERNAME}/personalmedicinetracker-cloud-app:latest
     build:
       context: .
       dockerfile: docker/docker_cloud/Dockerfile.cloud
-    container_name: cloud-app-container  
+    container_name: cloud-app-container
     env_file:
       - .env
-    restart: "no"  
+    restart: "no"
 
   mysqldb-service:
+    image: ${DOCKER_USERNAME}/personalmedicinetracker-mysqldb-service:latest
     build:
       context: .
       dockerfile: docker/docker_mysql/Dockerfile.mysql
     container_name: mysqldb-service-container
     ports:
-      - "3307:3306"  
+      - "3307:3306"
     env_file:
       - .env
     volumes:

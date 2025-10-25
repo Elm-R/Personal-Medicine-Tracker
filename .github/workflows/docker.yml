@@ -1,0 +1,48 @@
+name: Build and Push Docker Images with Commit Hash Loop
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+
+    env: # for readability
+      DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
+
+    steps:
+      # Step 1: Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v4   # pulls the code from GitHub repo into the runner.
+
+      # Step 2: Get short Git commit hash for tagging
+      - name: Get Git commit hash
+        id: vars  # unique ID to reference outputs (optional)
+        run: echo "COMMIT_HASH=$(git rev-parse --short HEAD)" >> $GITHUB_ENV
+
+      # Step 3: Log in to Docker Hub using secrets
+      - name: Log in to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+
+      # Step 4: Build all images via Docker Compose
+      - name: Build all images
+        run: docker-compose build
+
+      # Step 5: Tag and push all images dynamically using a loop
+      - name: Tag and push images with commit hash
+        run: |
+          services=(messages-app lambda-app cloud-app mysqldb-service)
+          for service in "${services[@]}"; do
+            IMAGE_NAME="${DOCKER_USERNAME}/personalmedicinetracker-$service"
+            echo "Tagging and pushing $IMAGE_NAME"
+            docker tag $IMAGE_NAME:latest $IMAGE_NAME:${COMMIT_HASH}
+            docker push $IMAGE_NAME:${COMMIT_HASH}
+          done
+
+      # Step 6: Push all 'latest' images via Docker Compose
+      - name: Push latest images
+        run: docker-compose push
